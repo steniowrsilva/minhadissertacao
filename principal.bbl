@@ -3,12 +3,30 @@
 \bibitem{Casimir1948}
 H.~B.~G. Casimir, ``On the attraction between two perfectly conducting plates,'' {\em Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen}, vol.~51, pp.~793--795, 1948.
 
-\bibitem{Das2008}
-A.~Das, {\em Lectures on Quantum Field Theory}.
-\newblock Singapore: World Scientific, 2008.
+\bibitem{Volovik2001}
+G.~E. Volovik, ``Mesoscopic casimir forces from effects of discrete particle number in the quantum vacuum,'' {\em arXiv preprint}, 2001.
+\newblock also published in Pisma Zh. Eksp. Teor. Fiz. 73 (2001) 419–423; JETP Lett. 73 (2001) 375–379.
+
+\bibitem{Passante2025}
+R.~Passante, L.~Rizzuto, P.~Schall, and E.~Marino, ``Quantum and critical casimir effects: Bridging fluctuation physics and nanotechnology,'' {\em arXiv preprint}, 2025.
+
+\bibitem{Decca2003}
+R.~S. Decca, E.~Fischbach, G.~L. Klimchitskaya, D.~E. Krause, D.~Lopez, and V.~M. Mostepanenko, ``Improved tests of extra-dimensional physics and thermal quantum field theory from new casimir force measurements,'' {\em Physical Review D}, vol.~68, p.~116003, 2003.
 
 \bibitem{Bordag2009}
 M.~Bordag, G.~L. Klimchitskaya, U.~Mohideen, and V.~M. Mostepanenko, {\em Advances in the Casimir Effect}.
 \newblock Oxford: Oxford University Press, 2009.
+
+\bibitem{PeskinSchroeder1995}
+M.~E. Peskin and D.~V. Schroeder, {\em An Introduction to Quantum Field Theory}.
+\newblock Addison-Wesley, 1995.
+
+\bibitem{Srednicki2007}
+M.~Srednicki, {\em Quantum Field Theory}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem{Das2008}
+A.~Das, {\em Lectures on Quantum Field Theory}.
+\newblock Singapore: World Scientific, 2008.
 
 \end{thebibliography}

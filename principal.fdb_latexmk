@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex principal"] 1771788619.06871 "principal.aux" "principal.bbl" "principal" 1771788621.27559 0
-  "./bibli.bib" 1771780813.36582 1282 1725d6829899439f1342eac95194154f ""
+["bibtex principal"] 1771797481.15185 "principal.aux" "principal.bbl" "principal" 1771797482.68732 0
+  "./bibli.bib" 1771797453.82452 3076 ef670027f5b73031af30b201227eb739 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "principal.aux" 1771788620.67933 8860 164f971790a356d453eafaf1ba751368 "pdflatex"
+  "principal.aux" 1771797482.31752 9162 1d63edf84ac226a7f68eb80abcbabb7b "pdflatex"
   (generated)
   "principal.bbl"
   "principal.blg"
   (rewritten before read)
-["pdflatex"] 1771788619.33229 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1771788621.27593 0
+["pdflatex"] 1771797481.29636 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1771797482.68754 0
   "/etc/texmf/web2c/texmf.cnf" 1726720012.88747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" 1771732435.36496 390 5350ebb232cdc8c3d30b0e0fc06a11d6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -137,11 +137,11 @@
   "capitulos/cap2/o efeito casimir.tex" 1771788616.50329 3929 0c0c935af7f08b2d04393b20a4624d9c ""
   "conclusao.tex" 1770598081.48658 2388 13483221f4cbe6befe67fc86db112103 ""
   "header.tex" 1770643015.08248 330 ae8772f165b820a9d2638b847449f6d5 ""
-  "intro.tex" 1771786054.40524 11156 6a1b264843cd55f1f85b8db0b0529fad ""
-  "principal.aux" 1771788620.67933 8860 164f971790a356d453eafaf1ba751368 "pdflatex"
-  "principal.bbl" 1771788619.32332 550 8f8e939b4d29d85bcfe99c13d3b73b25 "bibtex principal"
+  "intro.tex" 1771797477.88552 11303 e0527104435f1feeb0907ff327e0e0b0 ""
+  "principal.aux" 1771797482.31752 9162 1d63edf84ac226a7f68eb80abcbabb7b "pdflatex"
+  "principal.bbl" 1771797481.29052 1553 c43653a4a295db88b3e64e6717d6ecfa "bibtex principal"
   "principal.tex" 1771732435.36496 390 5350ebb232cdc8c3d30b0e0fc06a11d6 ""
-  "principal.toc" 1771788620.68533 820 3e1eb46ee88d550e8e7378c2e314964a "pdflatex"
+  "principal.toc" 1771797482.32152 820 3e1eb46ee88d550e8e7378c2e314964a "pdflatex"
   "resumo.tex" 1770645306.77636 1828 17c6818a7c19efc6056338082d42c015 ""
   "ufcg.png" 1770641436.5283 65520 e87f624da33d1a6debcbe03b472c89b5 ""
   (generated)
