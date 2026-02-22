@@ -1,0 +1,80 @@
+\section{O efeito Casimir}
+
+\subsection{Aplicação em placas paralelas}
+
+Consideremos a energia de vácuo de Casimir de um campo escalar numa configuração de dois planos paralelos em três dimensões com Dirichlet.
+
+Começamos das quantidades locais e damos especial atenção às regiões do espaço externo à configuração entre as placas. Sejam duas placas em z=0 e z=a.
+Na região entre as placas, o conjunto completo ortonormal de soluções para a equação \eqref{eq:KLeinGordonEq} satisfazendo a condição de contorno de Dirichlet $\bm{\Phi}_J(x,y,0)=\bm{\Phi}_J(x,y,a) = 0$ é dada pela equação \eqref{eq:campos}, onde
+
+\begin{equation}
+\begin{aligned}
+\bm{\Phi}_J(\bm{r})=\bm{\Phi}_{k_\perp, n}(\bm{r}) = \frac{1}{\pi \sqrt{2a}}e^{i(k_xx + k_yy)} sen(k_{zn}z), \\
+\omega^2_{k_\perp, n} = m^2 + k_{\perp}^2 + k_{zn}^2, \quad k_{\perp}^2 = k_x^2 + k_y^2, \quad k_{zn} = \frac{\pi n}{a}.
+\end{aligned}
+\end{equation}
+Onde a discretização de k na direção de z é devido às condições de contorno impostas durante a solução da equação \eqref{eq:KLeinGordonEq}. Substituindo essas soluções na equação \eqref{eq:<T>} obtemos a densidade de energia no vácuo 
+
+\begin{equation}
+\bra{0} T_{00}^{(0)} \ket{0} = \frac{1}{2a} \int_0^\infty \frac{k_\perp dk_\perp}{2\pi} \sum_{n=1}^\infty  \left[\omega_{k_\perp, n} - \frac{m^2 + k_\perp^2}{\omega_{k_\perp, n}} cos(2k_{zn}z) \right] \label{eq:comPlacas}
+\end{equation}
+Onde mudamos para o sistema de coordenadas polares e usamos a relação $sen^2(x) = \frac{1-cos(2x)}{2}$
+
+O último termo é oscilatório e não contribui para a energia total. No espaço de Minkowski livre de interações, como vimos, o conjunto completo ortonormel de soluções é dado pela equação \eqref{eq:freeSol}, que mudando para coordenadam em k, nos leva a 
+\begin{equation}
+\bra{0_M} T_{00}^{(0)} \ket{0_M} = \frac{1}{2} \int \frac{d^3k}{(2\pi)^3} \omega_k . \label{eq:semPlacas}
+\end{equation}
+
+onde $d^3k = dk_xdk_ydk_z$, $\omega_k = (m^2+\bm{k}^2)^{1/2}$. A densidade de energia de Casimir
+
+\begin{equation}
+\epsilon(z) = \bra{0} T_{00}^{(0)}(z) \ket{0} - \bra{0_M} T_{00}^{(0)} \ket{0_M}
+\end{equation}
+
+pode ser encontrada a partir de \eqref{eq:comPlacas} e \eqref{eq:semPlacas} usando a fórmula de Abel-Plana
+
+\begin{equation}
+\sum_{n=0}^\infty F(n) - \int_0^\infty F(t)dt = \frac{1}{2} F(0) + i \int_0^\infty \frac{dt}{e^{2\pi t} - 1} [F(it)  - F(-it)], \label{eq:abelPlana}
+\end{equation}
+
+de modo que obtemos o resultado
+
+\begin{equation}
+\begin{aligned}
+\epsilon(z) &= -\frac{1}{2} \int_0^\infty  \frac{k_\perp dk_\perp}{2\pi} \bigg[ \frac{\sqrt{m^2 + k_\perp^2}}{2} + \frac{2\pi}{a} \int_A^\infty \frac{\sqrt{t^2 - A^2}}{e^{2\pi t} - 1}dt \\
+ &+ (m^2 + k_\perp^2)\sum_{n=1}^\infty \frac{cos(2k_{zn}z)}{\omega_{k_\perp, n}} \bigg], \label{eq:denEnPlacas}
+\end{aligned}
+\end{equation}
+
+Onde,
+
+\begin{equation}
+A \equiv \frac{a\sqrt{m^2 + k_\perp^2}}{\pi}, \quad t \equiv \frac{ak_z}{\pi}.
+\end{equation}
+
+Se descartarmos o termos oscilatório de \eqref{eq:denEnPlacas}, a energia de Casimir por unidade de área das placas é dada por
+
+\begin{equation}
+\begin{aligned}
+E(a) &= \int_0^a dz \epsilon(z) = -\frac{1}{2} \int_0^\infty \frac{k_\perp dk_\perp}{2\pi} \bigg( \frac{\sqrt{m^2 + k_\perp^2}}{2} \\
+&+ \frac{2\pi}{a} \int_A^\infty \frac{\sqrt{t^2 - A^2}}{e^{2\pi t}-1}dt \bigg)
+\end{aligned}
+\end{equation}
+
+Para um campo sem massa, temos $A = ak_\perp / \pi$, de modo que depois de integramos temos, 
+
+\begin{equation}
+E(a) = -\frac{\pi^2}{1440a^3} - \frac{1}{8\pi} \int_0^\infty k_\perp^2 dk_\perp. \label{eq:EnergiaEntrePlacas}
+\end{equation}
+
+Uma vez que essa já é a energia por undide de área, para calcular a pressão basta derivar em relação à distância entre as placas
+
+\begin{equation}
+P(a) = - \frac{\partial E(a)}{\partial a}
+\end{equation}
+
+Portanto a pressão entre as placas é
+
+\begin{equation}
+P(a) = - \frac{\pi^2}{480a^4} \label{eq:pressaoEntreAsPlacas}
+\end{equation}

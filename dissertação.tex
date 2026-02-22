@@ -1,0 +1,477 @@
+\documentclass[12pt, a4paper]{book}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{comment}
+\usepackage{amssymb}
+\usepackage{braket}
+\usepackage{bm}
+%\setlength{\parindent}{1.25cm}
+\usepackage{microtype}
+\usepackage[brazil]{babel}
+\usepackage{indentfirst}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\author{Stenio da Silva}
+\begin{document}
+\chapter{Revisão do efeito casimir}
+
+Neste capítulo apresentamos uma revisão sistemática do efeito Casimir à luz da teoria quântica de campos. O desenvolvimento inicia-se com a formulação lagrangiana de campos clássicos, a discussão de simetrias contínuas e suas consequências via o teorema de Nöther. Em seguida, procede-se à quantização de campos escalares e à análise da energia do vácuo na presença de fronteiras. A partir desse formalismo, o efeito Casimir é estudado explicitamente no caso de placas paralelas, conduzindo à obtenção da energia do vácuo e da pressão associada.
+
+\section{Teorema de Nöther}
+
+\par O teorema de Nöther estabelece a relação fundamental entre simetrias contínuas da ação e leis de conservação, desempenhando um papel central na teoria clássica e quântica de campos. Em particular, as simetrias de translação no espaço-tempo conduzem à conservação da energia e do momento, que são descritas de forma unificada pelo tensor energia-momento. Nesta seção, revisamos o teorema de Nöther no formalismo lagrangiano e derivamos a expressão do tensor energia-momento para campos clássicos, com o objetivo de fundamentar sua utilização posterior no cálculo da energia de Casimir em sistemas com condições de contorno.
+
+Seja um sistema dinâmico descrito pela ação
+
+\begin{equation}
+ S = \int d^4 x \mathcal{L} \label{eq:acao}
+\end{equation}
+
+onde assumimos, 
+
+\begin{equation}
+\mathcal{L} = \mathcal{L}(\phi (x), \partial_\mu \phi (x)) \label{eq:lagphi}
+\end{equation}
+
+Sob uma tranformação geral da forma
+\begin{equation}
+\begin{aligned}
+&x^\mu \rightarrow x'^\mu \\
+&\phi (x) \rightarrow \phi'(x') \\
+&\partial_\mu \phi (x) \rightarrow \partial'_\mu \phi' (x') \\ \label{eq:tranformacoes}
+\end{aligned}
+\end{equation}
+
+dizemos que a dinâmica descrita pela ação \eqref{eq:acao} é invariante sob transformações \eqref{eq:tranformacoes} se a ação não muda sob essa tranformações.A saber, se
+
+\begin{equation}
+S = \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = \int d^4 x' \mathcal{L} (\phi' (x'), \partial'_\mu \phi' (x'))
+\end{equation}
+
+então, as transformações \eqref{eq:tranformacoes} definem uma simetria do sistema. É claro que neste caso, as equações de Euler-Lagrange para os sietmas com e sem linha continuariam invariantes. Vale a pena enfatizar aqui que \ref{eq:tranformacoes} inclui uma classe muito interessante de transformações onde as coordenadas espaço-tempo não mudam, ou seja, 
+
+\begin{equation}
+x'^\mu = x^\mu , \label{eq:Xinvariante}
+\end{equation}
+
+e somente as variáveis dinâmicas da teoria se transformam. Tais transformações são conhecidas como transforamções de simetria interna para serem contrastadas com as transformações espaço-tempo onde as coordenadas espaço-tempo se transformam juntamente com comm as variáveis dinâmicas, como em \eqref{eq:tranformacoes}. Nossa discussão de simetrias se aplica tanto às transformações espaço-tempo, onde as coordenadas espaço-tempo são transformadas, como as transformações de simetria interna, onde as coordenadas espaço-tempo não são afetadas pelas transformações.
+
+Simetrias têm consequências interessantes para transformações contínuas. Então, Consideremos uma trsnformação infinitesimal com
+
+\begin{equation}
+\left| \frac{\partial x'}{\partial x} \right| = 1, \label{eq:deXdevX}
+\end{equation}
+
+o que vale para a maioria das simetrias globais de espaço-tempo , bem como para as simetrias internas. Nesse caso, invariância da ação sob as formas infinitesimais das transformações em \eqref{eq:tranformacoes} implicaria
+
+\begin{equation}
+\begin{aligned}
+&\delta S = &\int d^4 x' \mathcal{L} (\phi' (x'), \partial'_\mu \phi' (x')) - \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = 0, \\
+&or, &\int d^4 x \mathcal{L} (\phi' (x), \partial_\mu \phi' (x)) - \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = 0, \\
+&or, &\int d^4 x ( \mathcal{L} (\phi' (x), \partial_\mu \phi' (x)) - \mathcal{L} (\phi (x), \partial_\mu \phi (x)) ) = 0, \\ \label{eq:deltaS}
+\end{aligned}
+\end{equation}
+
+Claramente, \eqref{eq:deltaS} será válida se 
+
+\begin{equation}
+\mathcal{L} (\phi'(x), \partial_\mu \phi'(x)) - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) = \partial_\mu K^\mu, \label{eq:deltaL1}
+\end{equation}
+
+que deve valer independentemente do uso de equações de movimento para o sistema que estamos vendo. Isto é bem geral e é possível ter transformações de simetria pelo qual $K^\mu$.
+Por outro lado, definir a transformação infinitesimal no campo como
+
+\begin{equation}
+\phi'(x) - \phi(x) = \delta \phi (x) \label{eq:transformacaocampo}
+\end{equation}
+
+de modo que
+
+\begin{equation}
+\delta (\partial_\mu \phi(x)) = \partial_\mu \phi' (x) - \partial_mu \phi(x)  = \partial_\mu \delta \phi(x)
+\end{equation}
+
+podemos calcular explicitamente, uma vez que mantemos somente os termos lineares, porque $\delta \phi(x)$ é infinitesimal,
+
+\begin{equation}
+\begin{aligned}
+&\mathcal{L} (\phi'(x), \partial_\mu \phi'(x)) - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) \\
+&= \mathcal{L} (\phi(x), \partial_\mu \phi(x)) + \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) \\
+&= \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} \\
+&= \delta \phi(x) \partial_\mu \frac{\partial \mathcal{L}}{\partial \partial_\mu  \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} \\
+&= \partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} \right) . \\ \label{eq:deltaL2}
+\end{aligned}
+\end{equation}
+
+Usamos a equação de Euler-Lagrange na penúltima linha. Comparando \eqref{eq:deltaL1} e \eqref{eq:deltaL2}, obtemos 
+
+\begin{equation}
+\begin{aligned}
+&\partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} \right) = \partial_\mu K^\mu \\
+ou, \quad &\partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} -  K^\mu \right) = 0 \\
+\end{aligned}
+\end{equation}
+
+Isso mostra que sempre que houver uma simetria contínua associada com o sistema, podemos definir uma corrente
+
+\begin{equation}
+\partial J^\mu =  \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} -  K^\mu
+\end{equation}
+
+que é conservado, ou seja,
+
+\begin{equation}
+\partial_\mu J^\mu = 0
+\end{equation}
+
+\subsection{Translação espaço-tempo}
+
+Como um exemplo das consequências do teorema de Nöther, consideremos o caso simples de uma translação infinitesima global espaço-tempo definido por
+
+\begin{equation}
+\begin{aligned}
+&x^\mu \rightarrow x'^\mu = x^\mu + \epsilon^\mu \\
+ou, \quad &\delta x^\mu = x'^\mu -x^\mu = \epsilon ^\mu , \label{eq:spacetimetranslation}
+\end{aligned}
+\end{equation}
+
+Como estamos lidando com um campo escalar, 
+
+\begin{equation}
+\phi'(x') = \phi(x)
+\end{equation}
+
+E nesse caso nós obtemos a a mudança no campo para corresponder a
+
+\begin{equation}
+\begin{aligned}
+\delta \phi(x) &= \phi'(x) - \phi(x) = \phi'(x) - \phi'(x') \\
+&= -(\phi'(x') - \phi'(x)) = - \epsilon^\mu \partial_\mu \phi'(x) \\ 
+&= - \epsilon^\mu \partial_\mu \phi(x) \\ \label{eq:deltaPhi=epsilonPartialPhi}
+\end{aligned}
+\end{equation} 
+Fizemos $\phi'(x)=\phi(x)$, porque multiplicar o parâmetro infinitesimal $\epsilon^\mu$ no lado direito da equação nos permite ignorar termos de mais altas ordens. Com isso, podemos calcular a explicitamente a mudança na densidade lagrangiana
+\begin{equation}
+\begin{aligned}
+\mathcal{L} (\phi'(x), \partial_\mu \phi'(x)) &= \mathcal{L} (\phi(x), \partial_\mu \phi(x)) \\
+&= \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + (\partial_\nu \delta \phi(x)) \frac{\partial \mathcal{L}}{\partial \partial_\nu \phi(x)} \\
+&= -\epsilon^\mu \partial_ \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} -\epsilon^\mu (\partial_\mu \partial_\nu \phi(x)) \frac{\partial \mathcal{L}}{\partial \partial_\nu \phi(x)} \\
+&= -\epsilon^\mu \partial_\mu \mathcal{L} = \partial_\mu K^\mu , \\ \label{eq:partialLPartialK}
+\end{aligned}
+\end{equation}
+Vemos que uma vez que a mudança na densidade lagrangiana é uma divergência total, a ação é invariante sob translações infinitesimais que definem uma simetria do sistema. Podemos identificar agora de \eqref{eq:partialLPartialK} que 
+
+\begin{equation}
+K^\mu = -\epsilon^\mu \mathcal{L} 
+\end{equation}
+Perceba que sob a transformação \eqref{eq:deltaPhi=epsilonPartialPhi} ,
+
+\begin{equation}
+\delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } = -\epsilon^\nu (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  }
+\end{equation}
+
+de maneira que obtemos a corrente associada com a transormação de simetria, dependendo do parâmetro de transformação,
+
+\begin{equation}
+\begin{aligned}
+J^\mu_\epsilon &= \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } - K^\mu \\
+&= -\epsilon^\nu (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } + \epsilon^\mu \mathcal{L} \\
+&= -\epsilon_\nu \left( (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } - \eta^{\mu\nu}  \mathcal{L} \right) = -\epsilon_\nu T^{\mu\nu} \\
+\end{aligned}
+\end{equation}
+
+Fica claro, portanto, que a corrente conservada independente do parâmetro pode ser identificada com
+
+\begin{equation}
+T^{\mu\nu} = (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } - \eta^{\mu\nu}  \mathcal{L} \label{eq:stressTensor}
+\end{equation}
+
+Que é o tensor energia momemto. Pode-se verificar que 
+
+\begin{equation}
+\partial_\mu T^{\mu\nu} = 0
+\end{equation}
+
+Além disso, verifica-se que ele é simétrico, ou seja,
+
+\begin{equation}
+T^{\mu\nu} = T^{\nu\mu}
+\end{equation}
+
+O operador energia-momento pode ser obtido a partir de 
+
+\begin{equation}
+P^\mu = \int d^3x T^{0\mu}
+\end{equation}
+
+Ou seja, o tensor energia-momento e o operador energia-momento são, respectivamente, a corrente e a carga associadas à simetria de transnalação de um sistema.
+
+Para a teoria de Klein-Gordon livre de interações, lembremos que a densidade Lagrangiana tem a forma, 
+
+\begin{equation}
+\mathcal{L} = \frac{1}{2} \partial_\mu \phi \partial^\mu \phi - \frac{m^2}{2} \phi^2 . 
+\end{equation}
+Então obtemos, 
+
+\begin{equation}
+\frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} = \partial^\mu \phi(x) , 
+\end{equation}
+
+E isso leva à forma explícita do tensor de tensão, a partir de \eqref{eq:stressTensor} 
+
+\begin{equation}
+T^{\mu\nu} = \partial^\nu \phi(x) \partial^\mu \phi(x) - \eta^{\mu\nu} \mathcal{L} = T^{\nu\mu}
+\end{equation}
+
+Notamos que, para a teoria de um sistema livre de interações,
+
+\begin{equation}
+\begin{aligned}
+P^0 &= \int d^3x T^{00} \\
+&= \int d^3x \left[ \left( \dot{\phi}(x) \right)^2 - \frac{1}{2} \left( \dot{\phi}(x) \right)^2 + \frac{1}{2} \nabla \phi \cdot \nabla \phi + \frac{1}{2} \phi^2 \right] \\
+&= \int d^3x \left[ \frac{1}{2} \left( \dot{\phi}(x) \right)^2 + \frac{1}{2} \nabla \phi \cdot \nabla \phi + \frac{1}{2} \phi^2 \right] \\
+&= H \\
+P^i &= \int d^3x T^{0i} \\
+&= \int d^3x \partial^i \phi(x) \dot{\phi(x)}, \\
+\boldsymbol{P} &= - \int d^3x \nabla \phi(x) \dot{\phi}(x) \label{eq:HeP}
+\end{aligned}
+\end{equation}
+
+%--------------------------------------------
+
+
+%--------------------------------------------
+\section{O efeito Casimir escalar para placas paralelas}
+
+Nesta seção da revisão iremos desenvolver o formalismo do campo escalar necessário para o estudo do efeito Casimir entre placas paralelas, desde a equação de Klein--Gordon e as condições de contorno até a obtenção da energia do vácuo e da pressão de Casimir.
+\subsection{Equação do campo}
+A equação de Klein-Gordon para um campo escalar real $\phi(x)$ é dada por
+
+\begin{equation}
+(\Box + m^2)\phi(x)= 0, \label{eq:KLeinGordonEq}
+\end{equation}
+
+onde o operador D'Alembertiano quadridimensional é definido como
+
+\begin{equation}
+\Box \equiv \eta^{\mu\nu} \frac{\partial^2}{\partial x^\mu \partial x^\nu} = \partial^\nu \partial_\nu 
+\end{equation}
+
+e m é a massa do campo. Se houver alguma fonte externa, a equação \eqref{eq:KLeinGordonEq} é generalizada para 
+
+\begin{equation}
+(\Box + m^2)\phi(x)= \Upsilon (x) \label{eq:GenKleinGordonEq}
+\end{equation}
+
+Ambas as equações \eqref{eq:KLeinGordonEq} e \eqref{eq:GenKleinGordonEq} são obtidas das equações de Euler-Lagrange da ação de um campo escalar 
+
+\begin{equation}
+S[\phi] = \int d^4x \mathcal{L} (x) = \int d^4x \left( \frac{1}{2} \partial^\nu \phi \partial_\nu - \frac{m^2}{2} \phi^2  + \Upsilon \phi \right)
+\end{equation}
+Usando integração por partes, a ação pode ficar na forma
+
+\begin{equation}
+S [\phi] = \int d^4x \left( -\frac{1}{2}\phi K \phi + \Upsilon \phi \right) 
+\end{equation}
+
+onde o operador
+\begin{equation}
+K \equiv K(x) = \Box + m^2
+\end{equation}
+
+é o kernel da ação.
+
+\subsection{Quantização canônica do campo e a energia de vácuo como uma expansão em modos}
+
+Para contornos estáticos suaves de qualquer forma geométrica, sempre é possível introduzir soluções de frequências negativas e positivas da equação de Klein-Gordon
+
+\begin{equation}
+\phi^{(+)}_J (t, \boldsymbol{r}) = \frac{1}{\sqrt{2\omega_J}} e^{-i\omega_J t} \boldsymbol{\Phi}_J (\boldsymbol{r}) , \quad \phi^{(-)}_J (t, \boldsymbol{r}) = \left[ \phi^{(+)}_J (t, \boldsymbol{r}) \right]^* \label{eq:campos}
+\end{equation}
+
+Onde J é um índice coletivo para o vetor de onda generalizado, e $\boldsymbol{\Phi} (\boldsymbol{r})$ satifaz algumas condições de uma superfície S. Se ela for aplicada à \eqref{eq:KLeinGordonEq}, ficamos com 
+
+\begin{equation}
+- \nabla^2 \boldsymbol{\Phi} (\boldsymbol{r}) = \Lambda_J \boldsymbol{\Phi}_J (\boldsymbol{r}), \quad \Lambda_J \equiv \omega_J - m^2. \label{eq:spatialEq}
+\end{equation}
+
+As funções \eqref{eq:campos} satifazem as condições de normalização
+
+\begin{equation}
+\left( \phi^{(\pm)}_{J}(x), \phi^{(\pm)}_{J'}(x) \right) = \pm \delta_{JJ'}, \quad \left( \phi^{(\pm)}_{J}(x), \phi^{(\mp)}_{J'}(x) \right) = 0,
+\end{equation}
+
+onde 
+
+\begin{equation}
+(f,g) = i \int_V d^3x \left( f^*\frac{\partial g}{\partial x^0} - \frac{\partial f^*}{\partial x^0}g \right) \label{eq:scalarProduct}
+\end{equation}
+
+é definido como o produto escalar de duas funções. De \eqref{eq:scalarProduct} também obtemos a condição de normalização para as soluções $\boldsymbol{\Phi}(x)$ do problemma de contorno,
+
+\begin{equation}
+\int_V d^3x \boldsymbol{\Phi}^*_J(\boldsymbol{r}) \boldsymbol{\Phi}_{J'}(\boldsymbol{r}) = \delta_{JJ'} \label{eq:normalization}
+\end{equation}
+
+Seguindo o processo de quantização canônica, segue-se o operador campo como a soma dos modos
+
+\begin{equation}
+\phi(x) = \sum_J \left[ \phi_J^{(+)}(x)a_J + \phi_J^{(-)}(x)a^+_J \right] \label{eq:campogeral}
+\end{equation}
+
+onde $a_J$ e $a^+_J$ são, respectivamente, os operadores de criação e de aniquilação de uma partícula com números quânticos indicados pelo índice coletivo J. O somatório sobre J pode se tornar uma integral se alguns (ou todos) os números quânticos forem contínuos. Eles satifazem as relações de comutação
+
+\begin{equation}
+[a_J, a^+_{J'}] = \delta_{JJ'}, \quad [a_J, a_{J'}] = 0. \label{eq:commutrel}
+\end{equation}
+
+O estado de vácuo do campo é definido por
+
+\begin{equation}
+a_J \ket{0} = 0 \label{eq:aKet0=0}
+\end{equation}
+
+E para obter estados com partículas usamos o operador de criação no vácuo. Por exemplo,
+
+\begin{equation}
+\ket{1} = a^+_J \ket{0} \label{eq:1=a+ket0}
+\end{equation}
+
+No caso em que não há nenhuma condição de contorno, o índice J coincide como o vetor de onda, $J \equiv \boldsymbol{k} = (k^1, k^2, k^3)$, as frequências de oscilação são dadas por $\omega_J = \omega_k = (m^2 + \boldsymbol{k}^2)^{\frac{1}{2}}$, e
+
+\begin{equation}
+\boldsymbol{\Phi}_J (\boldsymbol{r}) = \boldsymbol{\Phi}_{\boldsymbol{k}} (\boldsymbol{r}) = 
+\frac{e^{-i \boldsymbol{k} \cdot \boldsymbol{r}}}{(2\pi)^{\frac{3}{2}}} \label{eq:phiLivre}
+\end{equation}
+
+Neste caso, o símbolo $\delta_{JJ'}$ nas equações anteriores em que ele aparece deve ser mudado para $\delta^3(\boldsymbol{k} - \boldsymbol{k'})$. O estado de vácuo do campo escalar no espaçoo de Minkowski livre de interações é definido por 
+
+\begin{equation}
+a_{\bm{k}} \ket{0_M} = 0.
+\end{equation}
+
+A energia de densidade no vácuo do campo escalar na presença de contornos é o valor esperado da componente 00 do tensor energia momento \eqref{eq:stressTensor} no estado de vácuo,
+
+\begin{equation}
+\bra{0} T_{00}^{(0)}(x) \ket{0} = \frac{1}{2} \left\langle 0 \left| \left[ \sum_{\mu=0}^3 \left( \frac{\partial \phi}{\partial x^\mu } \right)^2 + m^2\phi^2 \right] \right| 0 \right\rangle \label{eq:tensorMeanvalue}
+\end{equation}
+
+Substituindo a equação \eqref{eq:campogeral} na \eqref{eq:tensorMeanvalue} e usando as equações \eqref{eq:campos}, \eqref{eq:commutrel} e \eqref{eq:aKet0=0}, obtemos
+
+\begin{equation}
+\bra{0} T_{00}^{(0)}(x) \ket{0} = \sum_J \frac{1}{4\omega_J} \left[ (\omega_J^2 + m^2)\bm{\Phi}_J (\bm{r}) \bm{\Phi}_J^*(\bm{r}) + \sum_{k=1}^3 \frac{\partial \bm{\Phi}_J(\bm{r})}{\partial x^k} \frac{\partial \bm{\Phi}^*_J(\bm{r})}{\partial x^k}     \right] \label{eq:<T>}
+\end{equation}
+
+Consideremos agora a energia total do vácuo do campo escalar no volume de quantização V. Assumimos que as funções $\bm{\Phi}_J(\bm{r})$ a condição de contorno de Dirichlet ou de Neumann numa superfície S. Ao integrar a equação \eqref{eq:<T>} sobre V usando \eqref{eq:spatialEq} e \eqref{eq:normalization}, obtemos
+
+\begin{equation}
+E_0 = \int_V d^3x \bra{0} T_{00}^{(0)} \ket{0} = \frac{1}{2} \sum_J \omega_J \label{eq:modeSum}
+\end{equation}
+
+Para o espaço de Minkowski livre de interação sem fronteiras, a densidade de energia de vácuo é obtida das equações \eqref{eq:phiLivre} e \eqref{eq:<T>} 
+
+\begin{equation}
+\bra{0_M} T_{00}^{(0)} \ket{0_M} = \frac{1}{2} \int \frac{d^3x}{(2\pi)^3} \omega_k . \label{eq:freeSol}
+\end{equation}
+
+A energia total do vácuo no volume V é
+
+\begin{equation}
+E_0 = \int_V d^3x \bra{0_M} T_{00}^{(0)} \ket{0_M} = \frac{1}{2} \int \frac{d^3x}{(2\pi)^3} \omega_k V.
+\end{equation}
+
+\subsection{Aplicação em placas paralelas}
+
+Consideremos a energia de vácuo de Casimir de um campo escalar numa configuração de dois planos paralelos em três dimensões com Dirichlet.
+
+Começamos das quantidades locais e damos espacial atenção às regiões do espaço externo à configuração entre as placas. Sejam duas placas em z=0 e z=a.
+Na região entre as placas, o conjunto completo ortonormal de soluções para a equação \eqref{eq:KLeinGordonEq} satisfazendo a condição de contorno de Dirichlet $\bm{\Phi}_J(x,y,0)=\bm{\Phi}_J(x,y,a) = 0$ é dada pela equação \eqref{eq:campos}, onde
+
+\begin{equation}
+\begin{aligned}
+\bm{\Phi}_J(\bm{r})=\bm{\Phi}_{k_\perp, n}(\bm{r}) = \frac{1}{\pi \sqrt{2a}}e^{i(k_xx + k_yy)} sen(k_{zn}z), \\
+\omega^2_{k_\perp, n} = m^2 + k_{\perp}^2 + k_{zn}^2, \quad k_{\perp}^2 = k_x^2 + k_y^2, \quad k_{zn} = \frac{\pi n}{a}.
+\end{aligned}
+\end{equation}
+Onde a discretização de k na direção de z é devido às condições de contorno impostas durante a solução da equação \eqref{eq:KLeinGordonEq}. Substituindo essas soluções na equação \eqref{eq:<T>} obtemos a densidade de energia no vácuo 
+
+\begin{equation}
+\bra{0} T_{00}^{(0)} \ket{0} = \frac{1}{2a} \int_0^\infty \frac{k_\perp dk_\perp}{2\pi} \sum_{n=1}^\infty  \left[\omega_{k_\perp, n} - \frac{m^2 + k_\perp^2}{\omega_{k_\perp, n}} cos(2k_{zn}z) \right] \label{eq:comPlacas}
+\end{equation}
+Onde mudamos para o sistema de coordenadas polares e usamos a relação $sen^2(x) = \frac{1-cos(2x)}{2}$
+
+O último termo é oscilatório e não contribui para a energia total. No espaço de Minkowski livre de interações, como vimos, o conjunto completo ortonormel de soluções é dado pela equação \eqref{eq:freeSol}, que mudando para coordenadam em k, nos leva a 
+\begin{equation}
+\bra{0_M} T_{00}^{(0)} \ket{0_M} = \frac{1}{2} \int \frac{d^3k}{(2\pi)^3} \omega_k . \label{eq:semPlacas}
+\end{equation}
+
+onde $d^3k = dk_xdk_ydk_z$, $\omega_k = (m^2+\bm{k}^2)^{1/2}$. A densidade de energia de Casimir
+
+\begin{equation}
+\epsilon(z) = \bra{0} T_{00}^{(0)}(z) \ket{0} - \bra{0_M} T_{00}^{(0)} \ket{0_M}
+\end{equation}
+
+pode ser encontrada a partir de \eqref{eq:comPlacas} e \eqref{eq:semPlacas} usando a fórmula de Abel-Plana
+
+\begin{equation}
+\sum_{n=0}^\infty F(n) - \int_0^\infty F(t)dt = \frac{1}{2} F(0) + i \int_0^\infty \frac{dt}{e^{2\pi t} - 1} [F(it)  - F(-it)], \label{eq:abelPlana}
+\end{equation}
+
+de modo que obtemos o resultado
+
+\begin{equation}
+\begin{aligned}
+\epsilon(z) &= -\frac{1}{2} \int_0^\infty  \frac{k_\perp dk_\perp}{2\pi} \bigg[ \frac{\sqrt{m^2 + k_\perp^2}}{2} + \frac{2\pi}{a} \int_A^\infty \frac{\sqrt{t^2 - A^2}}{e^{2\pi t} - 1}dt \\
+ &+ (m^2 + k_\perp^2)\sum_{n=1}^\infty \frac{cos(2k_{zn}z)}{\omega_{k_\perp, n}} \bigg], \label{eq:denEnPlacas}
+\end{aligned}
+\end{equation}
+
+Onde,
+
+\begin{equation}
+A \equiv \frac{a\sqrt{m^2 + k_\perp^2}}{\pi}, \quad t \equiv \frac{ak_z}{\pi}.
+\end{equation}
+
+Se descartarmos o termos oscilatório de \eqref{eq:denEnPlacas}, a energia de Casimir por unidade de área das placas é dada por
+
+\begin{equation}
+\begin{aligned}
+E(a) &= \int_0^a dz \epsilon(z) = -\frac{1}{2} \int_0^\infty \frac{k_\perp dk_\perp}{2\pi} \bigg( \frac{\sqrt{m^2 + k_\perp^2}}{2} \\
+&+ \frac{2\pi}{a} \int_A^\infty \frac{\sqrt{t^2 - A^2}}{e^{2\pi t}-1}dt \bigg)
+\end{aligned}
+\end{equation}
+
+Para um campo sem massa, temos $A = ak_\perp / \pi$, de modo que depois de integramos temos, 
+
+\begin{equation}
+E(a) = -\frac{\pi^2}{1440a^3} - \frac{1}{8\pi} \int_0^\infty k_\perp^2 dk_\perp. \label{eq:EnergiaEntrePlacas}
+\end{equation}
+
+Uma vez que essa já é a energia por undide de área, para calcular a pressão basta derivar em relação à distância entre as placas
+
+\begin{equation}
+P(a) = - \frac{\partial E(a)}{\partial a}
+\end{equation}
+
+Portanto a pressão entre as placas é
+
+\begin{equation}
+P(a) = - \frac{\pi^2}{480a^4} \label{eq:pressaoEntreAsPlacas}
+\end{equation}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

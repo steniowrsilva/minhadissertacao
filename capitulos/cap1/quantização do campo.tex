@@ -1,0 +1,102 @@
+%-----------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------------
+\section{Quantização canônica do campo e a energia de vácuo como uma expansão em modos}
+%-----------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------------
+
+Para contornos estáticos suaves de qualquer forma geométrica, sempre é possível introduzir soluções de frequências negativas e positivas da equação de Klein-Gordon
+
+\begin{equation}
+\phi^{(+)}_J (t, \boldsymbol{r}) = \frac{1}{\sqrt{2\omega_J}} e^{-i\omega_J t} \boldsymbol{\Phi}_J (\boldsymbol{r}) , \quad \phi^{(-)}_J (t, \boldsymbol{r}) = \left[ \phi^{(+)}_J (t, \boldsymbol{r}) \right]^* \label{eq:campos}
+\end{equation}
+
+Onde J é um índice coletivo para o vetor de onda generalizado, e $\boldsymbol{\Phi} (\boldsymbol{r})$ satifaz algumas condições de contorno de uma superfície S. Se ela for aplicada à \eqref{eq:KLeinGordonEq}, ficamos com 
+
+\begin{equation}
+- \nabla^2 \boldsymbol{\Phi} (\boldsymbol{r}) = \Lambda_J \boldsymbol{\Phi}_J (\boldsymbol{r}), \quad \Lambda_J \equiv \omega_J - m^2. \label{eq:spatialEq}
+\end{equation}
+
+As funções \eqref{eq:campos} satifazem as condições de normalização
+
+\begin{equation}
+\left( \phi^{(\pm)}_{J}(x), \phi^{(\pm)}_{J'}(x) \right) = \pm \delta_{JJ'}, \quad \left( \phi^{(\pm)}_{J}(x), \phi^{(\mp)}_{J'}(x) \right) = 0,
+\end{equation}
+
+onde 
+
+\begin{equation}
+(f,g) = i \int_V d^3x \left( f^*\frac{\partial g}{\partial x^0} - \frac{\partial f^*}{\partial x^0}g \right) \label{eq:scalarProduct}
+\end{equation}
+
+é definido como o produto escalar de duas funções. De \eqref{eq:scalarProduct} também obtemos a condição de normalização para as soluções $\boldsymbol{\Phi}(x)$ do problema de contorno,
+
+\begin{equation}
+\int_V d^3x \boldsymbol{\Phi}^*_J(\boldsymbol{r}) \boldsymbol{\Phi}_{J'}(\boldsymbol{r}) = \delta_{JJ'} \label{eq:normalization}
+\end{equation}
+
+Seguindo o processo de quantização canônica, segue-se o operador campo como a soma dos modos
+
+\begin{equation}
+\phi(x) = \sum_J \left[ \phi_J^{(+)}(x)a_J + \phi_J^{(-)}(x)a^+_J \right] \label{eq:campogeral}
+\end{equation}
+
+onde $a_J$ e $a^+_J$ são, respectivamente, os operadores de criação e de aniquilação de uma partícula com números quânticos indicados pelo índice coletivo J. O somatório sobre J pode se tornar uma integral se alguns (ou todos) os números quânticos forem contínuos. Eles satifazem as relações de comutação
+
+\begin{equation}
+[a_J, a^+_{J'}] = \delta_{JJ'}, \quad [a_J, a_{J'}] = 0. \label{eq:commutrel}
+\end{equation}
+
+O estado de vácuo do campo é definido por
+
+\begin{equation}
+a_J \ket{0} = 0 \label{eq:aKet0=0}
+\end{equation}
+
+E para obter estados com partículas usamos o operador de criação no vácuo. Por exemplo,
+
+\begin{equation}
+\ket{1} = a^+_J \ket{0} \label{eq:1=a+ket0}
+\end{equation}
+
+No caso em que não há nenhuma condição de contorno, o índice J coincide como o vetor de onda, $J \equiv \boldsymbol{k} = (k^1, k^2, k^3)$, as frequências de oscilação são dadas por $\omega_J = \omega_k = (m^2 + \boldsymbol{k}^2)^{\frac{1}{2}}$, e
+
+\begin{equation}
+\boldsymbol{\Phi}_J (\boldsymbol{r}) = \boldsymbol{\Phi}_{\boldsymbol{k}} (\boldsymbol{r}) = 
+\frac{e^{-i \boldsymbol{k} \cdot \boldsymbol{r}}}{(2\pi)^{\frac{3}{2}}} \label{eq:phiLivre}
+\end{equation}
+
+Neste caso, o símbolo $\delta_{JJ'}$ nas equações anteriores em que ele aparece deve ser mudado para $\delta^3(\boldsymbol{k} - \boldsymbol{k'})$. O estado de vácuo do campo escalar no espaço de Minkowski livre de interações é definido por 
+
+\begin{equation}
+a_{\bm{k}} \ket{0_M} = 0.
+\end{equation}
+
+A energia de densidade no vácuo do campo escalar na presença de contornos é o valor esperado da componente 00 do tensor energia momento \eqref{eq:stressTensor} no estado de vácuo,
+
+\begin{equation}
+\bra{0} T_{00}^{(0)}(x) \ket{0} = \frac{1}{2} \left\langle 0 \left| \left[ \sum_{\mu=0}^3 \left( \frac{\partial \phi}{\partial x^\mu } \right)^2 + m^2\phi^2 \right] \right| 0 \right\rangle \label{eq:tensorMeanvalue}
+\end{equation}
+
+Substituindo a equação \eqref{eq:campogeral} na \eqref{eq:tensorMeanvalue} e usando as equações \eqref{eq:campos}, \eqref{eq:commutrel} e \eqref{eq:aKet0=0}, obtemos
+
+\begin{equation}
+\bra{0} T_{00}^{(0)}(x) \ket{0} = \sum_J \frac{1}{4\omega_J} \left[ (\omega_J^2 + m^2)\bm{\Phi}_J (\bm{r}) \bm{\Phi}_J^*(\bm{r}) + \sum_{k=1}^3 \frac{\partial \bm{\Phi}_J(\bm{r})}{\partial x^k} \frac{\partial \bm{\Phi}^*_J(\bm{r})}{\partial x^k}     \right] \label{eq:<T>}
+\end{equation}
+
+Consideremos agora a energia total do vácuo do campo escalar no volume de quantização V. Assumimos que as funções $\bm{\Phi}_J(\bm{r})$ a condição de contorno de Dirichlet ou de Neumann numa superfície S. Ao integrar a equação \eqref{eq:<T>} sobre V usando \eqref{eq:spatialEq} e \eqref{eq:normalization}, obtemos
+
+\begin{equation}
+E_0 = \int_V d^3x \bra{0} T_{00}^{(0)} \ket{0} = \frac{1}{2} \sum_J \omega_J \label{eq:modeSum}
+\end{equation}
+
+Para o espaço de Minkowski livre de interação sem fronteiras, a densidade de energia de vácuo é obtida das equações \eqref{eq:phiLivre} e \eqref{eq:<T>} 
+
+\begin{equation}
+\bra{0_M} T_{00}^{(0)} \ket{0_M} = \frac{1}{2} \int \frac{d^3x}{(2\pi)^3} \omega_k . \label{eq:freeSol}
+\end{equation}
+
+A energia total do vácuo no volume V é
+
+\begin{equation}
+E_0 = \int_V d^3x \bra{0_M} T_{00}^{(0)} \ket{0_M} = \frac{1}{2} \int \frac{d^3x}{(2\pi)^3} \omega_k V.
+\end{equation}

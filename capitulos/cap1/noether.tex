@@ -1,0 +1,219 @@
+\section{Teorema de Nöther}
+
+\par O teorema de Nöther estabelece a relação fundamental entre simetrias contínuas da ação e leis de conservação, desempenhando um papel central na teoria clássica e quântica de campos. Em particular, as simetrias de translação no espaço-tempo conduzem à conservação da energia e do momento, que são descritas de forma unificada pelo tensor energia-momento. Nesta seção, revisamos o teorema de Nöther no formalismo lagrangiano e derivamos a expressão do tensor energia-momento para campos clássicos, com o objetivo de fundamentar sua utilização posterior no cálculo da energia de Casimir em sistemas com condições de contorno.
+
+Seja um sistema dinâmico descrito pela ação
+
+\begin{equation}
+ S = \int d^4 x \mathcal{L} \label{eq:acao}
+\end{equation}
+
+onde assumimos, 
+
+\begin{equation}
+\mathcal{L} = \mathcal{L}(\phi (x), \partial_\mu \phi (x)) \label{eq:lagphi}
+\end{equation}
+
+Sob uma tranformação geral da forma
+\begin{equation}
+\begin{aligned}
+&x^\mu \rightarrow x'^\mu \\
+&\phi (x) \rightarrow \phi'(x') \\
+&\partial_\mu \phi (x) \rightarrow \partial'_\mu \phi' (x') \\ \label{eq:tranformacoes}
+\end{aligned}
+\end{equation}
+
+dizemos que a dinâmica descrita pela ação \eqref{eq:acao} é invariante sob transformações \eqref{eq:tranformacoes} se a ação não muda sob essa tranformações. A saber, se
+
+\begin{equation}
+S = \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = \int d^4 x' \mathcal{L} (\phi' (x'), \partial'_\mu \phi' (x'))
+\end{equation}
+
+então, as transformações \eqref{eq:tranformacoes} definem uma simetria do sistema. É claro que neste caso, as equações de Euler-Lagrange para os sietmas com e sem linha continuariam invariantes. Vale a pena enfatizar aqui que \ref{eq:tranformacoes} inclui uma classe muito interessante de transformações onde as coordenadas espaço-tempo não mudam, ou seja, 
+
+\begin{equation}
+x'^\mu = x^\mu , \label{eq:Xinvariante}
+\end{equation}
+
+e somente as variáveis dinâmicas da teoria se transformam. Tais transformações são conhecidas como transforamções de simetria interna para serem contrastadas com as transformações espaço-tempo onde as coordenadas espaço-tempo se transformam juntamente com comm as variáveis dinâmicas, como em \eqref{eq:tranformacoes}. Nossa discussão de simetrias se aplica tanto às transformações espaço-tempo, onde as coordenadas espaço-tempo são transformadas, como as transformações de simetria interna, onde as coordenadas espaço-tempo não são afetadas pelas transformações.
+
+Simetrias têm consequências interessantes para transformações contínuas. Então, Consideremos uma transformação infinitesimal com
+
+\begin{equation}
+\left| \frac{\partial x'}{\partial x} \right| = 1, \label{eq:deXdevX}
+\end{equation}
+
+o que vale para a maioria das simetrias globais de espaço-tempo , bem como para as simetrias internas. Nesse caso, invariância da ação sob as formas infinitesimais das transformações em \eqref{eq:tranformacoes} implicaria
+
+\begin{equation}
+\begin{aligned}
+&\delta S = &\int d^4 x' \mathcal{L} (\phi' (x'), \partial'_\mu \phi' (x')) - \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = 0, \\
+&ou, &\int d^4 x \mathcal{L} (\phi' (x), \partial_\mu \phi' (x)) - \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = 0, \\
+&ou, &\int d^4 x ( \mathcal{L} (\phi' (x), \partial_\mu \phi' (x)) - \mathcal{L} (\phi (x), \partial_\mu \phi (x)) ) = 0, \\ \label{eq:deltaS}
+\end{aligned}
+\end{equation}
+
+Claramente, \eqref{eq:deltaS} será válida se 
+
+\begin{equation}
+\mathcal{L} (\phi'(x), \partial_\mu \phi'(x)) - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) = \partial_\mu K^\mu, \label{eq:deltaL1}
+\end{equation}
+
+que deve valer independentemente do uso de equações de movimento para o sistema que estamos vendo. Isto é bem geral e é possível ter transformações de simetria pelo qual $K^\mu$.
+Por outro lado, definir a transformação infinitesimal no campo como
+
+\begin{equation}
+\phi'(x) - \phi(x) = \delta \phi (x) \label{eq:transformacaocampo}
+\end{equation}
+
+de modo que
+
+\begin{equation}
+\delta (\partial_\mu \phi(x)) = \partial_\mu \phi' (x) - \partial_\mu \phi(x)  = \partial_\mu \delta \phi(x)
+\end{equation}
+
+podemos calcular explicitamente, uma vez que mantemos somente os termos lineares, porque $\delta \phi(x)$ é infinitesimal,
+
+\begin{equation}
+\begin{aligned}
+&\mathcal{L} (\phi'(x), \partial_\mu \phi'(x)) - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) \\
+&= \mathcal{L} (\phi(x), \partial_\mu \phi(x)) + \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) \\
+&= \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} \\
+&= \delta \phi(x) \partial_\mu \frac{\partial \mathcal{L}}{\partial \partial_\mu  \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} \\
+&= \partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} \right) . \\ \label{eq:deltaL2}
+\end{aligned}
+\end{equation}
+
+Usamos a equação de Euler-Lagrange na penúltima linha. Comparando \eqref{eq:deltaL1} e \eqref{eq:deltaL2}, obtemos 
+
+\begin{equation}
+\begin{aligned}
+&\partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} \right) = \partial_\mu K^\mu \\
+ou, \quad &\partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} -  K^\mu \right) = 0 \\
+\end{aligned}
+\end{equation}
+
+Isso mostra que sempre que houver uma simetria contínua associada com o sistema, podemos definir uma corrente
+
+\begin{equation}
+\partial J^\mu =  \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} -  K^\mu
+\end{equation}
+
+que é conservado, ou seja,
+
+\begin{equation}
+\partial_\mu J^\mu = 0
+\end{equation}
+
+\subsection{Translação espaço-tempo}
+
+Como um exemplo das consequências do teorema de Nöther, consideremos o caso simples de uma translação infinitesima global espaço-tempo definido por
+
+\begin{equation}
+\begin{aligned}
+&x^\mu \rightarrow x'^\mu = x^\mu + \epsilon^\mu \\
+ou, \quad &\delta x^\mu = x'^\mu -x^\mu = \epsilon ^\mu , \label{eq:spacetimetranslation}
+\end{aligned}
+\end{equation}
+
+Como estamos lidando com um campo escalar, 
+
+\begin{equation}
+\phi'(x') = \phi(x)
+\end{equation}
+
+E nesse caso nós obtemos a mudança no campo para corresponder a
+
+\begin{equation}
+\begin{aligned}
+\delta \phi(x) &= \phi'(x) - \phi(x) = \phi'(x) - \phi'(x') \\
+&= -(\phi'(x') - \phi'(x)) = - \epsilon^\mu \partial_\mu \phi'(x) \\ 
+&= - \epsilon^\mu \partial_\mu \phi(x) \\ \label{eq:deltaPhi=epsilonPartialPhi}
+\end{aligned}
+\end{equation} 
+Fizemos $\phi'(x)=\phi(x)$, porque multiplicar o parâmetro infinitesimal $\epsilon^\mu$ no lado direito da equação nos permite ignorar termos de mais altas ordens. Com isso, podemos calcular explicitamente a mudança na densidade lagrangiana
+\begin{equation}
+\begin{aligned}
+\mathcal{L} (\phi'(x), \partial_\mu \phi'(x)) &= \mathcal{L} (\phi(x), \partial_\mu \phi(x)) \\
+&= \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + (\partial_\nu \delta \phi(x)) \frac{\partial \mathcal{L}}{\partial \partial_\nu \phi(x)} \\
+&= -\epsilon^\mu \partial_ \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} -\epsilon^\mu (\partial_\mu \partial_\nu \phi(x)) \frac{\partial \mathcal{L}}{\partial \partial_\nu \phi(x)} \\
+&= -\epsilon^\mu \partial_\mu \mathcal{L} = \partial_\mu K^\mu , \\ \label{eq:partialLPartialK}
+\end{aligned}
+\end{equation}
+Vemos que uma vez que a mudança na densidade lagrangiana é uma divergência total, a ação é invariante sob translações infinitesimais que definem uma simetria do sistema. Podemos identificar agora de \eqref{eq:partialLPartialK} que 
+
+\begin{equation}
+K^\mu = -\epsilon^\mu \mathcal{L} 
+\end{equation}
+Perceba que sob a transformação \eqref{eq:deltaPhi=epsilonPartialPhi} ,
+
+\begin{equation}
+\delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } = -\epsilon^\nu (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  }
+\end{equation}
+
+de maneira que obtemos a corrente associada com a transormação de simetria, dependendo do parâmetro de transformação,
+
+\begin{equation}
+\begin{aligned}
+J^\mu_\epsilon &= \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } - K^\mu \\
+&= -\epsilon^\nu (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } + \epsilon^\mu \mathcal{L} \\
+&= -\epsilon_\nu \left( (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } - \eta^{\mu\nu}  \mathcal{L} \right) = -\epsilon_\nu T^{\mu\nu} \\
+\end{aligned}
+\end{equation}
+
+Fica claro, portanto, que a corrente conservada independente do parâmetro pode ser identificada com
+
+\begin{equation}
+T^{\mu\nu} = (\partial_\nu \phi(x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)  } - \eta^{\mu\nu}  \mathcal{L} \label{eq:stressTensor}
+\end{equation}
+
+Que é o tensor energia momemto. Pode-se verificar que 
+
+\begin{equation}
+\partial_\mu T^{\mu\nu} = 0
+\end{equation}
+
+Além disso, verifica-se que ele é simétrico, ou seja,
+
+\begin{equation}
+T^{\mu\nu} = T^{\nu\mu}
+\end{equation}
+
+O operador energia-momento pode ser obtido a partir de 
+
+\begin{equation}
+P^\mu = \int d^3x T^{0\mu}
+\end{equation}
+
+Ou seja, o tensor energia-momento e o operador energia-momento são, respectivamente, a corrente e a carga associadas à simetria de transnalação de um sistema.
+
+Para a teoria de Klein-Gordon livre de interações, lembremos que a densidade Lagrangiana tem a forma, 
+
+\begin{equation}
+\mathcal{L} = \frac{1}{2} \partial_\mu \phi \partial^\mu \phi - \frac{m^2}{2} \phi^2 . 
+\end{equation}
+Então obtemos, 
+
+\begin{equation}
+\frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} = \partial^\mu \phi(x) , 
+\end{equation}
+
+E isso leva à forma explícita do tensor de tensão, a partir de \eqref{eq:stressTensor} 
+
+\begin{equation}
+T^{\mu\nu} = \partial^\nu \phi(x) \partial^\mu \phi(x) - \eta^{\mu\nu} \mathcal{L} = T^{\nu\mu}
+\end{equation}
+
+Notamos que, para a teoria de um sistema livre de interações,
+
+\begin{equation}
+\begin{aligned}
+P^0 &= \int d^3x T^{00} \\
+&= \int d^3x \left[ \left( \dot{\phi}(x) \right)^2 - \frac{1}{2} \left( \dot{\phi}(x) \right)^2 + \frac{1}{2} \nabla \phi \cdot \nabla \phi + \frac{1}{2} \phi^2 \right] \\
+&= \int d^3x \left[ \frac{1}{2} \left( \dot{\phi}(x) \right)^2 + \frac{1}{2} \nabla \phi \cdot \nabla \phi + \frac{1}{2} \phi^2 \right] \\
+&= H \\
+P^i &= \int d^3x T^{0i} \\
+&= \int d^3x \partial^i \phi(x) \dot{\phi(x)}, \\
+\boldsymbol{P} &= - \int d^3x \nabla \phi(x) \dot{\phi}(x) \label{eq:HeP}
+\end{aligned}
+\end{equation}

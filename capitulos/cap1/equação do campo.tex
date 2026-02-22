@@ -1,0 +1,41 @@
+%-----------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------------
+\section{Equação do campo}
+%-----------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------------
+
+A equação de Klein-Gordon para um campo escalar real $\phi(x)$ é dada por
+
+\begin{equation}
+(\Box + m^2)\phi(x)= 0, \label{eq:KLeinGordonEq}
+\end{equation}
+
+onde o operador D'Alembertiano quadridimensional é definido como
+
+\begin{equation}
+\Box \equiv \eta^{\mu\nu} \frac{\partial^2}{\partial x^\mu \partial x^\nu} = \partial^\nu \partial_\nu 
+\end{equation}
+
+e m é a massa do campo. Se houver alguma fonte externa, a equação \eqref{eq:KLeinGordonEq} é generalizada para 
+
+\begin{equation}
+(\Box + m^2)\phi(x)= \Upsilon (x) \label{eq:GenKleinGordonEq}
+\end{equation}
+
+Ambas as equações \eqref{eq:KLeinGordonEq} e \eqref{eq:GenKleinGordonEq} são obtidas das equações de Euler-Lagrange da ação de um campo escalar 
+
+\begin{equation}
+S[\phi] = \int d^4x \mathcal{L} (x) = \int d^4x \left( \frac{1}{2} \partial^\nu \phi \partial_\nu - \frac{m^2}{2} \phi^2  + \Upsilon \phi \right)
+\end{equation}
+Usando integração por partes, a ação pode ficar na forma
+
+\begin{equation}
+S [\phi] = \int d^4x \left( -\frac{1}{2}\phi K \phi + \Upsilon \phi \right) 
+\end{equation}
+
+onde o operador
+\begin{equation}
+K \equiv K(x) = \Box + m^2
+\end{equation}
+
+é o kernel da ação.
