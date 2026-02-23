@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Casimir1948}
 H.~B.~G. Casimir, ``On the attraction between two perfectly conducting plates,'' {\em Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen}, vol.~51, pp.~793--795, 1948.
@@ -24,6 +24,24 @@ M.~E. Peskin and D.~V. Schroeder, {\em An Introduction to Quantum Field Theory}.
 \bibitem{Srednicki2007}
 M.~Srednicki, {\em Quantum Field Theory}.
 \newblock Cambridge University Press, 2007.
+
+\bibitem{Banishev2010}
+A.~A. Banishev, A.~W. Rodriguez, F.~Capasso, and J.~N. Munday, ``Repulsive casimir and van der waals forces: From measurements to future technologies,'' {\em Journal of Vacuum Science \& Technology B}, vol.~28, p.~060801, 2010.
+
+\bibitem{Serry1998}
+F.~M. Serry, D.~Walliser, and G.~J. Maclay, ``The role of the casimir effect in the static deflection and stiction of membrane strips in microelectromechanical systems (mems),'' {\em Journal of Applied Physics}, vol.~84, no.~5, pp.~2501--2506, 1998.
+
+\bibitem{Solodukhin2002}
+S.~N. Solodukhin, ``Surface terms, conformal anomalies and the geometry of entanglement,'' {\em arXiv preprint}, 2002.
+
+\bibitem{Bytsenko2001}
+A.~A. Bytsenko, G.~Cognola, L.~Vanzo, and S.~Zerbini, ``The casimir effect and topological field theories,'' {\em arXiv preprint}, 2001.
+
+\bibitem{Stefanazzi2024}
+F.~M. Stefanazzi, A.~M. Rossi, and C.~J. Nunes, ``Casimir effect and its implications in nanomechanics and soft matter,'' {\em Physics}, vol.~6, no.~2, p.~36, 2024.
+
+\bibitem{DalvitLamoreaux2021}
+D.~A.~R. Dalvit and S.~K. Lamoreaux, ``Quantum friction and vacuum fluctuations: general concepts and recent advances,'' {\em arXiv preprint}, 2021.
 
 \bibitem{Das2008}
 A.~Das, {\em Lectures on Quantum Field Theory}.
