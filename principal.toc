@@ -1,11 +1,13 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{Introdução}{6}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Revisão de Teoria Quâtica de Campos}{10}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Equação do campo}{10}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Teorema de Nöther}{11}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Translação espaço-tempo}{14}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.1}Teorema de Nöther}{10}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Translação espaço-tempo}{13}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Equação do campo}{15}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Quantização canônica do campo e a energia de vácuo como uma expansão em modos}{16}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Efeito Casimir}{19}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Aplicação em placas paralelas}{19}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Conclusões e Perpectivas}{22}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Perspectivas e trabalhos futuros}{23}{section.3.1}%
+\contentsline {chapter}{\numberline {3}Compactificação do campo Éter-escalar e o efeito Casimir}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Acoplamento Éter-escalar}{23}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Conclusões e Perpectivas}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{25}{section.4.1}%

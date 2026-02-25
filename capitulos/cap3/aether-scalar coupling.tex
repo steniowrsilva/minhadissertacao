@@ -1,0 +1,29 @@
+\section{Acoplamento Éter-escalar}
+O campo éter é um campo vetorial que pode ser acoplado a um campo escalar, modificando a dinâmica deste último. Ele é um vetor do tipo espaço de cinco dimensões $u^a = (0,0,0,0,v)$, onde a quinta dimensão, $x_5$, é compactificada num círculo de raio $b$. O vetor tem dimensão de massa e é constante, ou seja, ele dá um direção preferencial, consequentemente, quebrando a simetria de Lorentz. Deste modo, a lagrangiana do sistema, associada à interação entre o campo escalar e o éter é dada por
+\begin{equation}
+  \mathcal{L} = -\frac{1}{2}(\partial_a\phi)^2 - \frac{1}{2\mu^2_\phi} u^a u^b \partial_a \phi \partial_b \phi \label{eq:LagrangeAether}
+\end{equation}
+
+onde $\mu_\phi$ é um parâmetro de acoplamento com dimensão de massa que controla a intensidade do acoplamento entre o campo escalar e o éter. Substituindo \eqref{eq:LagrangeAether} nas equações de Euler-Lagrange,
+\begin{equation}
+    \partial_a \left( \frac{\partial \mathcal{L}}{\partial (\partial_a \phi)} \right) - \frac{\partial \mathcal{L}}{\partial \phi} = 0,
+\end{equation}
+
+Obtemos a equação de movimento para o campo escalar acoplado ao éter,
+\begin{equation}
+    \begin{aligned}
+            \partial_a \partial^a \phi + \frac{1}{\mu^2_\phi} u^a u^b \partial_a \partial_b \phi = 0, \\
+            \partial_a \partial^a \phi = -\mu_\phi^{-2} \partial_a (u^a u^b \partial_b \phi)     \end{aligned}
+\end{equation}
+
+Ao usar a solução de onda plana $\phi \sim e^{i k_a x^a} = e^{ik_\mu k^\mu + ik_5k^5}$, e $u_a u^a = v^2$, obtemos a relação de dispersão modificada,
+\begin{equation}
+    -k_\mu k^\mu = (1 + \alpha_\phi) k_5^2
+\end{equation}
+
+Onde $\alpha_\phi = \frac{v^2}{\mu_\phi^2}$ é um parâmetro adimensional. Essa relação de dispersão modificada implica que a presença do campo éter altera a energia dos modos do campo escalar, o que, por sua vez, afeta a energia de vácuo e a força de Casimir entre as placas paralelas. 
+
+Se impusermos a condição de contorno quasi-periódica 
+\begin{equation}
+    \phi(t,x,y,z,x_5) = e^{-2\pi \beta i} \phi(t,x,y,z,x_5 + b),
+\end{equation}

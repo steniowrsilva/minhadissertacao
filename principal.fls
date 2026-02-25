@@ -214,15 +214,15 @@ INPUT intro.tex
 INPUT ./capitulos/cap1/cap1.tex
 INPUT ./capitulos/cap1/cap1.tex
 INPUT capitulos/cap1/cap1.tex
-INPUT ./capitulos/cap1/equação do campo.tex
-INPUT ./capitulos/cap1/equação do campo.tex
-INPUT capitulos/cap1/equação do campo.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./capitulos/cap1/noether.tex
 INPUT ./capitulos/cap1/noether.tex
 INPUT capitulos/cap1/noether.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./capitulos/cap1/equação do campo.tex
+INPUT ./capitulos/cap1/equação do campo.tex
+INPUT capitulos/cap1/equação do campo.tex
 INPUT ./capitulos/cap1/quantização do campo.tex
 INPUT ./capitulos/cap1/quantização do campo.tex
 INPUT capitulos/cap1/quantização do campo.tex
@@ -234,6 +234,14 @@ INPUT capitulos/cap2/cap2.tex
 INPUT ./capitulos/cap2/o efeito casimir.tex
 INPUT ./capitulos/cap2/o efeito casimir.tex
 INPUT capitulos/cap2/o efeito casimir.tex
+INPUT ./capitulos/cap3/cap3.tex
+INPUT ./capitulos/cap3/cap3.tex
+INPUT capitulos/cap3/cap3.tex
+INPUT ./capitulos/cap3/aether-scalar coupling.tex
+INPUT ./capitulos/cap3/aether-scalar coupling.tex
+INPUT ./capitulos/cap3/aether-scalar coupling.tex
+INPUT ./capitulos/cap3/aether-scalar coupling.tex
+INPUT capitulos/cap3/aether-scalar coupling.tex
 INPUT ./conclusao.tex
 INPUT ./conclusao.tex
 INPUT conclusao.tex
