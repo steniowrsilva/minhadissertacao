@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  27 FEB 2026 03:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  26 FEB 2026 02:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,7 +281,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box54
-) (./principal.aux)
+) (%OUTDIR%/principal.aux)
 \openout1 = `principal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -366,7 +366,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)) (./resumo.tex [2]) (./abstract.tex [3]) [4] (./principal.toc)
+)) (./resumo.tex [2]) (./abstract.tex [3]) [4] (%OUTDIR%/principal.toc)
 \tf@toc=\write4
 \openout4 = `principal.toc'.
 
@@ -394,36 +394,36 @@ Cap\'{\i }tulo 2.
 Cap\'{\i }tulo 3.
 [22
 
-] (./capitulos/cap3/aether-scalar coupling.tex [23]
+] (./capitulos/cap3/aether-scalar coupling.tex [23])) (./conclusao.tex
 Overfull \hbox (114.52704pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 24 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  COMPACTIFICA[][]AO DO CAMPO []ETER-ESCALAR E O EFEITO CASIMIR
  []
 
-[24])) (./conclusao.tex [25]
+[24]
 Cap\'{\i }tulo 4.
-[26
+[25
 
-] [27]) (./principal.bbl [28] [29
+] [26]) (./principal.bbl [27] [28
 
-]) [30] (./principal.aux)
+]) [29] (%OUTDIR%/principal.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13443 strings out of 474222
- 210163 string characters out of 5748733
+ 13431 strings out of 474222
+ 210073 string characters out of 5748733
  1938975 words of memory out of 5000000
- 35188 multiletter control sequences out of 15000+600000
+ 35185 multiletter control sequences out of 15000+600000
  572719 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,82p,1413b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on principal.pdf (30 pages, 329778 bytes).
+Output written on %OUTDIR%/principal.pdf (29 pages, 325774 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 469 compressed objects within 5 object streams
- 142 named destinations out of 1000 (max. 500000)
- 28782 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 28774 words of extra memory for PDF output out of 29859 (max. 10000000)
 

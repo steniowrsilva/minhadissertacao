@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex principal"] 1772175004.01707 "principal.aux" "principal.bbl" "principal" 1772175006.72061 0
-  "./bibli.bib" 1771813656.42084 7591 937857acade30336d0ae3ca81817ad10 ""
-  "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "principal.aux" 1772175006.1223 12452 ad9970c0e0be71c944648d057c17e9ff "pdflatex"
+["bibtex principal"] 0 "principal.aux" "principal.bbl" "principal" 1772083774.1069 -1
+  "principal.aux" 0 -1 0 ""
   (generated)
   "principal.bbl"
   "principal.blg"
   (rewritten before read)
-["pdflatex"] 1772175004.15583 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1772175006.72084 0
+["pdflatex"] 1772083773.08026 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1772083774.10697 0
+  "%OUTDIR%/principal.aux" 1772083774.02571 11903 8a0362b8ac32c228d97cef7fad02d332 "pdflatex"
+  "%OUTDIR%/principal.toc" 1772083774.02871 1115 e52812f19c0c14f89e6c293b74be6a2e "pdflatex"
   "/etc/texmf/web2c/texmf.cnf" 1726720012.88747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" 1771995577.85794 421 32b0a8fbd4eb19e6ca1deb8fce04f866 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -135,20 +135,18 @@
   "capitulos/cap1/quantização do campo.tex" 1771726082.96122 5641 e127a0e318df5979669ad990c1b74ebe ""
   "capitulos/cap2/cap2.tex" 1771788598.52009 451 634e44dafe80a809707bd56fa6126479 ""
   "capitulos/cap2/o efeito casimir.tex" 1771788616.50329 3929 0c0c935af7f08b2d04393b20a4624d9c ""
-  "capitulos/cap3/aether-scalar coupling.tex" 1772174997.13189 4843 d6c11173ef98962cb5ec895a4704431c ""
+  "capitulos/cap3/aether-scalar coupling.tex" 1772083772.96171 3252 9a3a174f0ded35e9c6b43080551acea0 ""
   "capitulos/cap3/cap3.tex" 1772080571.38623 2225 de56f3db100cde24739ca9ec8886e4eb ""
   "conclusao.tex" 1771825568.8041 6733 4a254684b2a2d963fb49c26559b29300 ""
   "header.tex" 1770643015.08248 330 ae8772f165b820a9d2638b847449f6d5 ""
   "intro.tex" 1771813678.75307 11402 1868db8f178cdbdd2d706da9a54d66a7 ""
-  "principal.aux" 1772175006.1223 12452 ad9970c0e0be71c944648d057c17e9ff "pdflatex"
-  "principal.bbl" 1772175004.15043 3867 21704ff13ec8c10098f067dfb106238d "bibtex principal"
+  "principal.bbl" 1772080558.91654 3867 21704ff13ec8c10098f067dfb106238d "bibtex principal"
   "principal.tex" 1771995577.85794 421 32b0a8fbd4eb19e6ca1deb8fce04f866 ""
-  "principal.toc" 1772175006.1263 1194 5fb8f4d57ac1d9823fd54a7422b63726 "pdflatex"
   "resumo.tex" 1770645306.77636 1828 17c6818a7c19efc6056338082d42c015 ""
   "ufcg.png" 1770641436.5283 65520 e87f624da33d1a6debcbe03b472c89b5 ""
   (generated)
-  "principal.aux"
-  "principal.log"
+  "%OUTDIR%/principal.aux"
+  "%OUTDIR%/principal.log"
+  "%OUTDIR%/principal.toc"
   "principal.pdf"
-  "principal.toc"
   (rewritten before read)
