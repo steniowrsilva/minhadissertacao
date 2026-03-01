@@ -79,7 +79,13 @@ Utilizando a função de Bessel modificada do segundo tipo, que é dada por
 \begin{equation}
     K_\nu(z) = \frac{\sqrt{\pi}(z/2)^\nu}{\Gamma(\nu+1/2)} \int_1^\infty  e^{-zt} (t^2 - 1)^{\nu - 1/2} dt \label{eq:besselK}
 \end{equation}
-Identificando $\nu - 1/2 = - s$ e $z = 2\pi qN$, e fazendo algumas manipulações algébricas obtemos
+Identificando $\nu - 1/2 = - s$ e $z = 2\pi qN$, lembrando que $K_{-\nu} (z) = K_\nu (z)$ e fazendo algumas manipulações algébricas obtemos
+
 \begin{equation}
-    a
+    I_q = \Gamma(1-s) \pi^{-1+s} \left( \frac{q}{N} \right)^{-1/2 + s} K_{1/2-s}(2\pi qN) . \label{eq:secondIntegralBessel}
+\end{equation}
+
+Então a equação \eqref{eq:secondIntegral} se torna
+\begin{equation}
+    \int_N^\infty dx \frac{(x^2 - N^2)^{-s}}{e^{2x\pi} - 1} = \sum_{q=1}^\infty \left( \frac{q}{N} \right)^{-1/2 + s} \pi^{-1+s} K_{1/2-s}(2\pi qN) \Gamma(1-s). \label{eq:secondIntegralBesselSum}
 \end{equation}
