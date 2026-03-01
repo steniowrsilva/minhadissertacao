@@ -10,5 +10,5 @@
 \contentsline {chapter}{\numberline {3}Compactificação do campo Éter-escalar e o efeito Casimir}{22}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Acoplamento Éter-escalar}{23}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Energia de Casimir}{25}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Conclusões e Perpectivas}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{27}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Conclusões e Perpectivas}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{28}{section.4.1}%

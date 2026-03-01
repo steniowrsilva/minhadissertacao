@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  28 FEB 2026 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  1 MAR 2026 01:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,31 +399,36 @@ Overfull \hbox (114.52704pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 24 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  COMPACTIFICA[][]AO DO CAMPO []ETER-ESCALAR E O EFEITO CASIMIR
  []
 
-[24]) (./capitulos/cap3/casimir energy.tex)) (./conclusao.tex [25]
+[24]) (./capitulos/cap3/casimir energy.tex [25])) (./conclusao.tex
+Overfull \hbox (114.52704pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 26 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  COMPACTIFICA[][]AO DO CAMPO []ETER-ESCALAR E O EFEITO CASIMIR
+ []
+
+[26]
 Cap\'{\i }tulo 4.
-[26
+[27
 
-] [27]) (./principal.bbl [28] [29
+] [28]) (./principal.bbl [29] [30
 
-]) [30] (./principal.aux)
+]) [31] (./principal.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13452 strings out of 474222
- 210407 string characters out of 5748733
+ 13471 strings out of 474222
+ 210765 string characters out of 5748733
  1938975 words of memory out of 5000000
- 35193 multiletter control sequences out of 15000+600000
+ 35201 multiletter control sequences out of 15000+600000
  572719 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,82p,1413b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on principal.pdf (30 pages, 330493 bytes).
+Output written on principal.pdf (31 pages, 337843 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 473 compressed objects within 5 object streams
- 143 named destinations out of 1000 (max. 500000)
+ 574 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 154 named destinations out of 1000 (max. 500000)
  28782 words of extra memory for PDF output out of 29859 (max. 10000000)
 

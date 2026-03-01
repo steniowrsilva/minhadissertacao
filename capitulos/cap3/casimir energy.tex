@@ -1,5 +1,51 @@
 \section{Energia de Casimir}
-No espaço-tempo plano, a energia de cssimir surge como consequência das condições de contorno impostas no campo quântico. Como impusemos duas condições de contorno dinstintas ao sistema \eqref{eq:kmukmu}, Um acontribuição finita da energia de Casimir pode ser calculada. Usando a equação \eqref{eq:omega} na equação \eqref{eq:modeSum}, que obtivemos no capítulo 1, a energia de vácuo do campo escalar acoplado ao éter é dada por
+No espaço-tempo plano, a energia de casimir surge como consequência das condições de contorno impostas no campo quântico. Como impusemos duas condições de contorno dinstintas ao sistema \eqref{eq:kmukmu}, Um acontribuição finita da energia de Casimir pode ser calculada. Usando a equação \eqref{eq:omega} na equação \eqref{eq:modeSum}, que obtivemos no capítulo 1, a energia de vácuo do campo escalar acoplado ao éter é dada por
 \begin{equation}
-    a
+    E = \frac{1}{2} \left( \frac{L}{2 \pi} \right)^\ell \int d^\ell k \sum_m \sum_n \sqrt{k^2 + k_m^2 + (1+\alpha_\phi^2)k_n^2} \label{eq:modeSumFifth}
+\end{equation}
+Onde $k^2= k_x^2 + k_y^2$, $L^2$ é a área das placas e $\ell=2$. O parâmetro $\ell$ é chamado de regularizador de dimensão. Nós o usamos em vez de 2, porque a soma e a integral na equação \eqref{eq:modeSumFifth} são divergentes. O processo de regularização é necessário para obter um resultado finito para a energia de Casimir. Para isso usaremos a relação 
+\begin{equation}
+    \int f(k)d^nk = \frac{2\pi^{n/2}}{\Gamma(n/2)} \int_0^\infty f(k) k^{n-1} dk \label{eq:genSphericalCoordInt}
+\end{equation}
+que é a generalização da mudança de coordenadas esféricas para $n$ dimensões. Substituindo a equação \eqref{eq:genSphericalCoordInt} na equação \eqref{eq:modeSumFifth}, obtemos
+\begin{equation}
+    E = \frac{1}{2} \left( \frac{L}{2 \pi} \right)^\ell \frac{2\pi^{\ell/2}}{\Gamma(\ell/2)} \sum_m \sum_n \int_0^\infty dk k^{\ell-1} [k^2 + k_m^2 + (1+\alpha_\phi^2)k_n^2]^{-r} \label{eq:modeSumFifthSpherical}
+\end{equation}
+para calcular a integral em \eqref{eq:modeSumFifthSpherical} definamos $A = k_m^2 + (1+\alpha_\phi^2)k_n^2$, então a integral se torna
+
+\begin{equation}
+    I(A) =  \int_o^\infty dkk^\ell-1 (k^2 + A)^{-r}
+\end{equation}
+
+se fizermos a substituição $k=\sqrt{A}t$, obtemos
+
+\begin{equation}
+    I(A) = A^{\frac{\ell}{2}-r} \int_0^\infty dt t^{\ell-1} (1 + t^2)^{-r}
+\end{equation}
+
+Agora fazemos a substituição $t^2 = u$, então $t^{\ell-1} dt = \frac{1}{2} u^{\frac{\ell}{2}-1} du$, e a integral se torna
+
+\begin{equation}
+    I(A) = \frac{1}{2} A^{\frac{\ell}{2}-r} \int_0^\infty du u^{\frac{\ell}{2}-1} (1 + u)^{-r}
+\end{equation}
+
+usando a definição da função beta, que é dada por
+\begin{equation}
+    B(x,y) = \int_0^\infty du u^{x-1} (1 + u)^{-x-y} = \frac{\Gamma(x)\Gamma(y)}{\Gamma(x+y)} \label{eq:betaFuncDef}
+\end{equation}
+podemos escrever a integral $I(A)$ como
+\begin{equation}
+    I(A) = \frac{1}{2} A^{\frac{\ell}{2}-r} B\left( \frac{\ell}{2}, r - \frac{\ell}{2} \right) = \frac{1}{2} A^{\frac{\ell}{2}-r} \frac{\Gamma(\frac{\ell}{2})\Gamma(r-\frac{\ell}{2})}{\Gamma(r)} \label{eq:integralResult}
+\end{equation}
+Substituindo a equação \eqref{eq:integralResult} na equação \eqref{eq:modeSumFifthSpherical}, obtemos
+\begin{equation}
+    E = \frac{1}{4} \left( \frac{L}{2 \pi} \right)^\ell \frac{2\pi^{\ell/2}}{\Gamma(\ell/2)} \frac{\Gamma(\frac{\ell}{2})\Gamma(r-\frac{\ell}{2})}{\Gamma(r)} \sum_m \sum_n [k_m^2 + (1+\alpha_\phi^2)k_n^2]^{\frac{\ell}{2}-r} \label{eq:modeSumFifthSphericalResult}
+\end{equation}
+cancelando os fatores $\Gamma(\ell/2)$ e o 2 com o 4, obtemos
+\begin{equation}
+    E = \frac{1}{2} \left( \frac{L}{2 \pi} \right)^\ell \pi^{\ell/2} \frac{\Gamma(r-\frac{\ell}{2})}{\Gamma(r)} \sum_m \sum_n [k_m^2 + (1+\alpha_\phi^2)k_n^2]^{\frac{\ell}{2}-r} \label{eq:modeSumFifthSphericalResult2}
+\end{equation}
+Substituindo os valores de $k_m=\frac{m\pi}{a}$ e $k_n=\frac{2\pi}{b}(n+\beta)$, obtemos
+\begin{equation}
+    E = \frac{1}{2} \left( \frac{L}{2 \pi} \right)^\ell \pi^{\ell/2} \frac{\Gamma(r-\frac{\ell}{2})}{\Gamma(r)} \sum_m \sum_n \left[ \left( \frac{m\pi}{a} \right)^2 + (1+\alpha_\phi^2) \left( \frac{2\pi}{b}(n+\beta) \right)^2 \right]^{\frac{\ell}{2}-r} \label{eq:modeSumFifthSphericalResult3}
 \end{equation}
