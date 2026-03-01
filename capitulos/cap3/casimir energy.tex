@@ -89,3 +89,14 @@ Então a equação \eqref{eq:secondIntegral} se torna
 \begin{equation}
     \int_N^\infty dx \frac{(x^2 - N^2)^{-s}}{e^{2x\pi} - 1} = \sum_{q=1}^\infty \left( \frac{q}{N} \right)^{-1/2 + s} \pi^{-1+s} K_{1/2-s}(2\pi qN) \Gamma(1-s). \label{eq:secondIntegralBesselSum}
 \end{equation}
+Substituindo \eqref{eq:subst} na equação \eqref{eq:secondIntegralBesselSum}, temos
+
+\begin{equation}
+\begin{aligned}
+    E =& \left( \frac{2}{L} \right)^{2s+1} \frac{\pi^{s+1/2}\Gamma(s)}{2\Gamma(-1/2)} \left( \frac{\pi}{a} \right)^{-2s} \sum_{n=-\infty}^{\infty} \left\{ \int_{0}^{\infty} dx (N^2 + x^2)^{-s} + \frac{N^{-2s}}{2} \right. \\
+     &+ \left. 2i^{1-2s} \pi^{-1+s} \Gamma(1-s) \sum_{q=1}^\infty \left( \frac{q}{N} \right)^{-1/2 + s} \pi^{-1+s} K_{1/2-s}(2\pi qN)  \right\} 
+\end{aligned}
+\end{equation}
+
+Dentre os termos que estão entre chaves, a integral diverge. No enteanto vamos primeiro calcular a soma em n para extrair a contruição finita, que também está presente na integral acima. Depois disso, prosseguimos ao descartar a contribuição divergente com o processo de renormalização. Portanto, para o termo com integral, temos
+

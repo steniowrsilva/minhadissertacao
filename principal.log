@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  1 MAR 2026 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  1 MAR 2026 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,41 +394,31 @@ Cap\'{\i }tulo 2.
 Cap\'{\i }tulo 3.
 [22
 
-] (./capitulos/cap3/aether-scalar coupling.tex [23]
-Overfull \hbox (114.52704pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 24 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  COMPACTIFICA[][]AO DO CAMPO []ETER-ESCALAR E O EFEITO CASIMIR
- []
-
-[24]) (./capitulos/cap3/casimir energy.tex [25]
-Overfull \hbox (114.52704pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 26 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  COMPACTIFICA[][]AO DO CAMPO []ETER-ESCALAR E O EFEITO CASIMIR
- []
-
-[26])) (./conclusao.tex [27]
+] (./capitulos/cap3/aether-scalar coupling.tex [23] [24]) (./capitulos/cap3/casimir energy.tex [25] [26] [27])) (./conclusao.tex [28]
 Cap\'{\i }tulo 4.
-[28
+[29
 
-] [29]) (./principal.bbl [30] [31
+] [30]) (./principal.bbl [31] [32
 
-]) [32] (./principal.aux)
+]) [33] (./principal.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13494 strings out of 474222
- 211139 string characters out of 5748733
+ 13496 strings out of 474222
+ 211161 string characters out of 5748733
  1941975 words of memory out of 5000000
  35211 multiletter control sequences out of 15000+600000
  572828 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,82p,1413b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on principal.pdf (32 pages, 344640 bytes).
+Output written on principal.pdf (33 pages, 346664 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 500000)
+ 615 PDF objects out of 1000 (max. 8388607)
+ 525 compressed objects within 6 object streams
+ 167 named destinations out of 1000 (max. 500000)
  28782 words of extra memory for PDF output out of 29859 (max. 10000000)
 
