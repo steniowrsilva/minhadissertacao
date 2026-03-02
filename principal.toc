@@ -12,3 +12,4 @@
 \contentsline {section}{\numberline {3.2}Energia de Casimir}{25}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Conclusões e Perpectivas}{29}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{30}{section.4.1}%
+\contentsline {chapter}{Apêndice A: Somatório de $\DOTSB \sum@ \slimits@ f(n+\beta )$}{34}{chapter*.4}%
