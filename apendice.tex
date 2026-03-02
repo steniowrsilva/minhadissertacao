@@ -1,0 +1,197 @@
+\section*{Appendix A: Sum of $\sum f(n+\beta)$}
+
+Now, we deduce the recurrence formula to solve the integral \eqref{18}. Starting with the Abel-Plana formula as follows
+\begin{equation}
+\sum_{n=0}^{\infty} f(n+a)
+=
+\int_{0}^{\infty} f(x)\,dx
++
+\frac{f(a)}{2}
++
+i \int_{0}^{\infty} dx \,
+\frac{f(a+ix)-f(a-ix)}{e^{2ix}-1}.
+\tag{A1}
+\end{equation}
+
+The sum can be divided into positive and negative intervals:
+\begin{equation}
+\sum_{n=-\infty}^{\infty} f(n+\beta)
+=
+\sum_{n=0}^{\infty} f(n+\beta)
++
+\sum_{n=0}^{-\infty} f(n+\beta)
+-
+f(\beta)
+=
+\sum_{n=0}^{\infty} f(n+\beta)
++
+\sum_{n=0}^{\infty} f(-n+\beta)
+-
+f(\beta).
+\tag{A2}
+\end{equation}
+
+Applying the sums separately in the Abel-Plana formula \eqref{A1}, we have
+\begin{equation}
+\sum_{n=0}^{\infty} \left[(n+\beta)^2+\mu^2\right]^{-s}
+=
+\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
++
+\frac{(\beta^2+\mu^2)^{-s}}{2}
++
+i\int_{0}^{\infty} dx \,
+\frac{\left[(\beta+ix)^2+\mu^2\right]^{-s}
+-
+\left[(\beta-ix)^2+\mu^2\right]^{-s}}
+{e^{2\pi x}-1}.
+\tag{A3}
+\end{equation}
+
+and
+\begin{align}
+\sum_{n=0}^{\infty} \left[(-n+\beta)^2+\mu^2\right]^{-s}
+&=
+\sum_{n=0}^{\infty} \left[(n+(-\beta))^2+\mu^2\right]^{-s}
+\nonumber\\[4pt]
+&=
+\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
++
+\frac{\left[(-\beta)^2+\mu^2\right]^{-s}}{2}
+\nonumber\\
+&\quad
++
+i\int_{0}^{\infty} dx \,
+\frac{\left[((-\beta)+ix)^2+\mu^2\right]^{-s}
+-
+\left[((-\beta)-ix)^2+\mu^2\right]^{-s}}
+{e^{2\pi x}-1}
+\nonumber\\[4pt]
+&=
+\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
++
+\frac{(\beta^2+\mu^2)^{-s}}{2}
++
+i\int_{0}^{\infty} dx \,
+\frac{\left[(-\beta+ix)^2+\mu^2\right]^{-s}
+-
+\left[(-\beta-ix)^2+\mu^2\right]^{-s}}
+{e^{2\pi x}-1}.
+\tag{A4}
+\end{align}
+
+By substituting \eqref{A3} and \eqref{A4} in Eq. \eqref{A2}, we get
+\begin{align}
+\sum_{n=-\infty}^{\infty} \left[(n+\beta)^2+\mu^2\right]^{-s}
+&=
+\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
++
+\frac{(\beta^2+\mu^2)^{-s}}{2}
++
+i\int_{0}^{\infty} dx \,
+\frac{\left[(\beta+ix)^2+\mu^2\right]^{-s}
+-
+\left[(\beta-ix)^2+\mu^2\right]^{-s}}
+{e^{2\pi x}-1}
+\nonumber\\
+&\quad
++
+\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
++
+\frac{(\beta^2+\mu^2)^{-s}}{2}
+\nonumber\\
+&\quad
++
+i\int_{0}^{\infty} dx \,
+\frac{\left[(-\beta+ix)^2+\mu^2\right]^{-s}
+-
+\left[(-\beta-ix)^2+\mu^2\right]^{-s}}
+{e^{2\pi x}-1}
+-
+(\beta^2+\mu^2)^{-s}
+\nonumber\\[4pt]
+&=
+2\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
++
+\left(i^{1-2s}+(-i)^{1-2s}\right)
+\int_{0}^{\infty} dx \,
+\frac{\left[(x+i\beta)^2-\mu^2\right]^{-s}
++
+\left[(x-i\beta)^2-\mu^2\right]^{-s}}
+{e^{2\pi x}-1}.
+\tag{A5}
+\end{align}
+
+The second integral of \eqref{A5} may be solved by using the identity
+\begin{equation}
+\left(e^{y}-1\right)^{-1}
+=
+\sum_{j=1}^{\infty} e^{-jy}.
+\tag{A6}
+\end{equation}
+
+As a consequence, we have
+\begin{align}
+\sum_{n=-\infty}^{\infty} \left[(n+\beta)^2+\mu^2\right]^{-s}
+&=
+2\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
+\nonumber\\
+&\quad
++
+\left(i^{1-2s}+(-i)^{1-2s}\right)
+\sum_{\ell=1}^{\infty}
+\int_{0}^{\infty} dx \,
+\left(
+\left[(x+i\beta)^2-\mu^2\right]^{-s}
++
+\left[(x-i\beta)^2-\mu^2\right]^{-s}
+\right)e^{-2\ell\pi x}
+\nonumber\\[4pt]
+&=
+2\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
+\nonumber\\
+&\quad
++
+\left(i^{1-2s}+(-i)^{1-2s}\right)
+\sum_{\ell=1}^{\infty}
+\left\{
+\int_{0}^{\infty} du \, e^{-2\pi\ell(u-i\beta)} \left[u^2-\mu^2\right]^{-s}
++
+\int_{0}^{\infty} dv \, e^{-2\pi\ell(v+i\beta)} \left[v^2-\mu^2\right]^{-s}
+\right\}.
+\nonumber
+\end{align}
+
+The above expression can be reduced to
+\begin{align}
+\sum_{n=-\infty}^{\infty} \left[(n+\beta)^2+\mu^2\right]^{-s}
+&=
+2\int_{0}^{\infty} dx \,\left[x^2+\mu^2\right]^{-s}
++
+\left(i^{1-2s}+(-i)^{1-2s}\right)
+\sum_{\ell=1}^{\infty}
+2\cos(2\pi \ell \beta)
+\int_{\mu}^{\infty} du \, e^{-2\pi \ell u}\left[u^2-\mu^2\right]^{-s}
+\nonumber\\[4pt]
+&=
+\sqrt{\pi}\,\mu^{1-2s}
+\frac{\Gamma\!\left(-\frac12+s\right)}{\Gamma(s)}
++
+\left(i^{1-2s}+(-i)^{1-2s}\right)
+\frac{2\Gamma(1-s)}{\pi^{1-s}}
+\sum_{\ell=1}^{\infty}
+\left(\frac{\ell}{\mu}\right)^{-1/2+s}
+\cos(2\pi \ell \beta)\,
+K_{\frac12-s}(2\pi \mu \ell)
+\nonumber\\[4pt]
+&=
+\sqrt{\pi}\,\mu^{1-2s}
+\frac{\Gamma\!\left(-\frac12+s\right)}{\Gamma(s)}
++
+\sin(\pi s)\,
+\frac{4\Gamma(1-s)}{\pi^{1-s}}
+\sum_{\ell=1}^{\infty}
+\left(\frac{\ell}{\mu}\right)^{-1/2+s}
+\cos(2\pi \ell \beta)\,
+K_{\frac12-s}(2\pi \mu \ell).
+\tag{A7}
+\end{align}
