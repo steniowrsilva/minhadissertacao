@@ -10,6 +10,6 @@
 \contentsline {chapter}{\numberline {3}Compactificação do campo Éter-Escalar}{22}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Acoplamento Éter-escalar}{23}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Energia de Casimir}{25}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Conclusões e Perpectivas}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{30}{section.4.1}%
-\contentsline {chapter}{Apêndice A: Somatório de $\DOTSB \sum@ \slimits@ f(n+\beta )$}{34}{chapter*.4}%
+\contentsline {chapter}{\numberline {4}Conclusões e Perpectivas}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{31}{section.4.1}%
+\contentsline {chapter}{Apêndice A: Somatório de $\DOTSB \sum@ \slimits@ f(n+\beta )$}{35}{chapter*.4}%

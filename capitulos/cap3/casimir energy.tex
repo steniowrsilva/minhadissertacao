@@ -94,11 +94,42 @@ Substituindo \eqref{eq:subst} na equação \eqref{eq:secondIntegralBesselSum}, t
 \begin{equation}
 \begin{aligned}
     E =& \left( \frac{2}{L} \right)^{2s+1} \frac{\pi^{s+1/2}\Gamma(s)}{2\Gamma(-1/2)} \left( \frac{\pi}{a} \right)^{-2s} \sum_{n=-\infty}^{\infty} \left\{ \int_{0}^{\infty} dx (N^2 + x^2)^{-s} + \frac{N^{-2s}}{2} \right. \\
-     &+ \left. 2i^{1-2s} \pi^{-1+s} \Gamma(1-s) \sum_{q=1}^\infty \left( \frac{q}{N} \right)^{-1/2 + s} \pi^{-1+s} K_{1/2-s}(2\pi qN)  \right\} 
+     &+ \left. 2i^{1-2s} \pi^{-1+s} \Gamma(1-s) \sum_{q=1}^\infty \left( \frac{q}{N} \right)^{-1/2 + s} \pi^{-1+s} K_{1/2-s}(2\pi qN)  \right\} \label{eq:energyWithK}
 \end{aligned}
 \end{equation}
 
 Dentre os termos que estão entre chaves, a integral diverge. No entanto, vamos primeiro calcular a soma em n para extrair a contribuição finita, que também está presente na integral acima. Depois disso, prosseguimos ao descartar a contribuição divergente com o processo de renormalização. Portanto, para o termo com integral, temos
 \begin{equation}
      \int_{0}^{\infty} dx \sum_{n=-\infty}^{\infty} (N^2 + x^2)^{-s} = \int_0^\infty dx \left( \frac{a}{\tilde{b}} \right)^{-2s} \sum_{n=-\infty}^{\infty} \left[ (n + \beta)^{-2s} + \frac{\tilde{b}^2}{a^2}x^2 \right]^{-s}. \label{eq:abfatorados}
+\end{equation}
+
+O somatório pode ser calculado ao usar a expressão \eqref{eq:A1}, obtendo
+\begin{equation}
+    \begin{aligned}
+     \left( \frac{a}{\tilde{b}} \right)^{-2s} dx \int_0^\infty  \sum_{n=-\infty}^{\infty} \left[ (n + \beta)^{-2s} + \frac{\tilde{b}^2}{a^2}x^2 \right]^{-s} =& \left( \frac{a}{\tilde{b}} \right)^{-2s} dx  \int_0^\infty \left[ 2\tilde{b}^{-2s} \int_0^\infty d\mu \left( \frac{\mu^2}{b^2} + \frac{x^2}{a^2} \right)^{-s} \right. \\
+     &+  sen(\pi s) \frac{4\Gamma(1 - s)}{\pi^{1-s}} \left( \frac{\tilde{b}}{a}x \right)^{1-2s} \\ 
+     & \quad \times \left.  \sum_{n=-1}^\infty \frac{cos(2\pi n \beta)}{n^{1/2-s}} K_{1/2-s} \left( 2\pi nx \frac{\tilde{b}}{a} \right) \right] \label{eq:eqComMu}
+    \end{aligned}
+\end{equation}
+
+onde $\mu= \frac{\tilde{b}}{a}x$. A integral em $\mu$ diverge, e deve ser removida, pois ela é responsável pela contribuição divergente da energia de Casimir numa configuração em que não haveria fronteiras. A integral em x pode ser calculada usando a seguinte identidade
+\begin{equation}
+    \int_0^\infty dx \left( \frac{b}{a}x \right)^{1/2-s} K_{1/2 -s} \left( 2\pi n \frac{b}{a} x  \right) = \frac{1}{4} \left( \frac{a}{b}  \right) n ^{-3/2-s} \pi^{-1+s} \Gamma(1-s) \label{eq:semK}
+\end{equation}
+
+onde usamos a fórmula de reflexão de Euler
+
+\begin{equation}
+    \Gamma(z-1) \Gamma(z) = \frac{\pi}{sen(\pi z)} \label{eq:reflectionFormula}
+\end{equation}
+
+O segundo somatório em \eqref{eq:energyWithK} fornece uma expressão analítica, que é obtida através da relação \eqref{eq:A4}:
+
+\begin{equation}
+    \sum_{-\infty}^{infty} \left( \frac{a}{\tilde{b}} \right)^{-2s} (n+\beta)^{-2s} = \left( \frac{a}{\tilde{b}} \right)^{-2s} \pi^{2d-1/2} \frac{\Gamma(1/2 - s)}{\Gamma(s)} 2 \sum_{n=1}^\infty \frac{cos(2\pi n \beta)}{n^{1-2s}}. \label{eq:relA4}
+\end{equation}
+
+Ao substituir \eqref{eq:semK} e \eqref{eq:relA4} na equação \eqref{eq:energyWithK}, finalmente obetemos a forma fechada da energia de Casimir regularizada, que é dada por
+\begin{equation}
+    E^{reg} (\alpha,\beta) = -\left( \frac{2}{L} \right)^{2s+1} \frac{\pi^s \Gamma(s)}{4} \left( \frac{\pi}{a} \right)^{-2s} \left\{  \right\}
 \end{equation}
