@@ -132,8 +132,18 @@ O segundo somatório em \eqref{eq:energyWithK} fornece uma expressão analítica
 Ao substituir \eqref{eq:semK} e \eqref{eq:relA4} na equação \eqref{eq:energyWithK}, finalmente obetemos a forma fechada da energia de Casimir regularizada, que é dada por
 \begin{equation}
     \begin{aligned}
-    E^{reg} (\alpha,\beta) &= -\left( \frac{2}{L} \right)^{2s+1} \frac{\pi^s \Gamma(s)}{4} \left( \frac{\pi}{a} \right)^{-2s} \left\{ \left( \frac{a}{\tilde{b}} \right)^{1-2s} \frac{\pi^{-1+2s}}{\Gamma(s)} \Gamma(1-s) \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^{2-2s}} \right. \\ 
+    E^{reg} (\alpha,\beta) =& -\left( \frac{2}{L} \right)^{2s+1} \frac{\pi^s \Gamma(s)}{4} \left( \frac{\pi}{a} \right)^{-2s} \left\{ \left( \frac{a}{\tilde{b}} \right)^{1-2s} \frac{\pi^{-1+2s}}{\Gamma(s)} \Gamma(1-s) \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^{2-2s}} \right. \\ 
     &+ \left. \left( \frac{a}{\tilde{b}} \right)^{-2s} \pi^{2s-1/2} \frac{\Gamma(1/2 - s)}{\Gamma(s)} 2 \sum_{n=1}^{\infty} n^{2s-1} cos(2\pi n \beta) \right. \\
     &+ \left. 2^{1-2s} \pi^{-1+s} \Gamma(1-s) \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \left( \frac{q}{N} \right)^{-1/2 -s} K_{-1/2 + s} (2Nq \pi) \right\}
     \end{aligned}
-\end{equation} 
+\end{equation}
+
+Ao considerar $s \to -3/2$, removemos o parâmetro de regularização e obtemos a energia de Casimir renormalizada, que é dada por
+
+\begin{equation}
+    \begin{aligned}
+        E_{reg} (\alpha, \beta) = - \frac{L^2 \pi^2}{4a^3} \left\{ \frac{3}{16} \left( \frac{a}{\pi \tilde{b}} \right)^4 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^5} \right. +& \left. \frac{1}{2\pi^4} \left( \frac{a}{\tilde{b}} \right)^3 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^4} \right. \\ 
+        +& \left. \frac{1}{2\pi^2} \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \left( \frac{N}{q} \right)^2 K_2 (2Nq\pi) \right\}
+    \end{aligned}
+\end{equation}
+
