@@ -143,7 +143,33 @@ Ao considerar $s \to -3/2$, removemos o parâmetro de regularização e obtemos 
 \begin{equation}
     \begin{aligned}
         E_{reg} (\alpha, \beta) = - \frac{L^2 \pi^2}{4a^3} \left\{ \frac{3}{16} \left( \frac{a}{\pi \tilde{b}} \right)^4 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^5} \right. +& \left. \frac{1}{2\pi^4} \left( \frac{a}{\tilde{b}} \right)^3 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^4} \right. \\ 
-        +& \left. \frac{1}{2\pi^2} \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \left( \frac{N}{q} \right)^2 K_2 (2Nq\pi) \right\}
+        +& \left. \frac{1}{2\pi^2} \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \left( \frac{N}{q} \right)^2 K_2 (2Nq\pi) \right\} \label{eq:normalizedCasimirEnergy}
     \end{aligned}
 \end{equation}
 
+A existência do parâmetro $\beta$ faz com que não necessitemos retirar o termo $n=0$ do somatório. pois a função de bessel modificada do segundo tipo, $K_\nu(z)$, diverge quando $z \to 0$ para $\nu > 0$. Portanto, a energia de Casimir é finita mesmo sem retirar o termo $n=0$ do somatório. Esse termo será analizado em outra ocasião quando considerarmos o limite $\beta \to 0$. A influência do parâmetro quasi-peródico $\beta$ pode ser encontrado em cada termo entre as chaves. O segundo termo dentro das chaves não é influenciado por $a$, porque ele cancela com o $a^3$ que está fora no denominador. Além disso, se fizermo $\beta = 0$, a influência da condição quasi-periódica some, mas esse segundo termo continua existindo, ou seja, ele existe devido somente à presença da dimensão extra. 
+
+Também podemos realizar a soma em $n$ nos dois primeiros termos da equação \eqref{eq:normalizedCasimirEnergy}. usando a definição de polilogaritmo,
+
+\begin{equation}
+    Li_s(z) = \sum_{n=1}^\infty \frac{z^n}{n^s}, \quad |z| < 1 \label{eq:polilogDef},
+\end{equation}
+usando a relação 
+
+\begin{equation}
+    cos(2\pi n \beta) = \frac{e^{2i\pi n \beta} + e^{-2i\pi n \beta}}{2} = \frac{1}{2} \sum_{\delta = +,-} e^{2i\pi n \delta \beta} \label{eq:cosExp}
+\end{equation}
+
+e separando o termo com $n=0$ do somatório duplo, obtemos
+
+\begin{equation}
+\begin{aligned}
+E^{ren}(a,\beta) =& -\frac{L^{2}}{8a\tilde{b}^{2}}\sum_{\delta=+,-} \left\{ \frac{3}{16} \left( \frac{a}{\pi\tilde{b}}\right)^{2} \operatorname{Li}_{5} \left(e^{2i\pi\delta\beta}\right) + \frac{a}{2\pi^{2}\tilde{b}}\operatorname{Li}_{4}\left(e^{2i\pi\delta\beta}\right) \right. \\ 
+&+ \left. \sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\left(\frac{\delta n+\beta}{q}\right)^{2}K_{2}\left[\frac{a}{\tilde{b}}\left|\delta n+\beta\right|2q\pi\right]\right\} \\
+&- \frac{L^{2}}{8a\tilde{b}^{2}}\sum_{q=1}^{\infty}\left(\frac{\beta}{q}\right)^{2}K_{2}\left[2\beta q\pi\frac{a}{\tilde{b}}\right], \label{eq:casimirEnergyWithDelta}
+\end{aligned}
+\end{equation}
+
+onde $\delta$ assume os valores $\delta = 1, - 1$. 
+
+Note que na equação \eqref{eq:casimirEnergyWithDelta}, o primeiro termo entre chaves é linear em $a$. Na Ref. \cite{Pascoal2008}, num estudo similar, os autores retiraram esse termo, porque quando se toma o limite $a  \to 0$, ele diverge. 
