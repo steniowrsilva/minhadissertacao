@@ -127,6 +127,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./principal.aux
@@ -245,6 +247,24 @@ INPUT capitulos/cap3/aether-scalar coupling.tex
 INPUT ./capitulos/cap3/casimir energy.tex
 INPUT ./capitulos/cap3/casimir energy.tex
 INPUT capitulos/cap3/casimir energy.tex
+INPUT ./Figure_1.png
+INPUT ./Figure_1.png
+INPUT ./Figure_1.png
+INPUT ./Figure_1.png
+INPUT ./Figure_1.png
+INPUT ./Figure_2.png
+INPUT ./Figure_2.png
+INPUT ./Figure_2.png
+INPUT ./Figure_2.png
+INPUT ./Figure_2.png
+INPUT ./capitulos/cap3/casimir force.tex
+INPUT ./capitulos/cap3/casimir force.tex
+INPUT capitulos/cap3/casimir force.tex
+INPUT ./Figure_3.png
+INPUT ./Figure_3.png
+INPUT ./Figure_3.png
+INPUT ./Figure_3.png
+INPUT ./Figure_3.png
 INPUT ./conclusao.tex
 INPUT ./conclusao.tex
 INPUT conclusao.tex

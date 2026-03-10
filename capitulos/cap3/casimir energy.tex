@@ -173,3 +173,45 @@ E^{ren}(a,\beta) =& -\frac{L^{2}}{8a\tilde{b}^{2}}\sum_{\delta=+,-} \left\{ \fra
 onde $\delta$ assume os valores $\delta = 1, - 1$. 
 
 Note que na equação \eqref{eq:casimirEnergyWithDelta}, o primeiro termo entre chaves é linear em $a$. Na Ref. \cite{Pascoal2008}, num estudo similar, os autores retiraram esse termo, porque quando se toma o limite $a  \to 0$, ele diverge. No entanto, quando calculamos a a força a partir da energia, que é a grandeza a ser medida, este termo se torna constante, e portanto, tem uma contribuição relevante. devemos considerar esse termo e analizar seu efeito na força, uma vez que nosso objetivo é investigar a influência da condição de contorno e o parâmetro de dimensão extra na força de Casimir. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Figure_1.png}
+\caption{A densidade de energia $a^3E/L^2$ em função de $\beta$ para vários valores de $a/\tilde b$.}
+\label{fig:energy_beta}
+\end{figure}
+
+Na figura \ref{fig:energy_beta}, plotamoss a energia de casimir \eqref{eq:casimirEnergyWithDelta}, por unidade de área das placas, em função do parãmetro $\beta$. O gráfico mostra que $\beta$ pode ser usado para controlar a intensidade e o sinal da energia de vácuo. Isso significa que que podemos ter uma energia de vácuo atrativa, repulsiva ou até mesmo nula. Além disso, podemos ver que o valor $\beta=1/2$ mostra uma simetria, dando para cada curva o valor máximo positivo para a energia de vácuo. Os valores $\beta=0, 1$ também mostram uma simetria, que fornece o mesmo valor mínimo da energia de vácuo para cada curva. Podemos perceber que a intensidade da energia de vácuo aumenta à medida que o valor de $a/\tilde{b}$ também aumenta, ou seja, a energia de vácuo é mais intensa para placas mais afastadas. Note que considerando uma análise numérica, a energia se torna positiva no intervalo $0,25 < \beta < 0,75$, independetemente dos valores de $a/\tilde{b}$. Na figura \ref{fig:energy_a_bar_tildeb} plotamos a energia de casimir, por unidade de área das placas, em função do parâmetro $a/\tilde{b}$ para vários valores de $\beta$. Fica claro que quando essa razão vai para zero a energia diverge, enquanto que quando ela vai para o infinito a energia vai para um valor constante para cada curva.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Figure_2.png}
+\caption{A densidade de energia $b^3E/L^2$ em função de $a/\tilde{b}$ para vários valores de $\beta$.}
+\label{fig:energy_a_bar_tildeb}
+\end{figure}
+
+Agora vamos considerar o caso em que $\beta=0$, na qual a condição de contorno quasi periódica está ausente, e recuperamos a condição de contorno periódica. De fato, o último termo de \eqref{eq:casimirEnergyWithDelta} representado por $n=0$ é divergente se subsituimos diretamente $\beta=0$. No entanto, podemos tomar o limite $\beta \to 0$ para o parâmetro quasi-periódico, que resulta em uma contribuição finita como abaixo
+
+\begin{equation}
+\sum_{q=1}^{\infty} \left( \frac{\beta}{q} \right)^{2} K_{2}\!\left( 2\beta q \pi \frac{a}{\tilde{b}} \right) \overset{\beta \to 0}{\longrightarrow}\sum_{q=1}^{\infty} \frac{\tilde{b}^{2}}{2a^{2}\pi^{2}q^{4}}=\frac{\pi^{2}\tilde{b}^{2}}{180a^{2}} .
+\end{equation}
+
+onde usamos a assintótica de $K_2(z)$
+\begin{equation}
+    K_2 \left( 2\beta q \pi \frac{a}{\tilde{b}} \right) \sim \frac{2}{(2 \beta q \pi a/\tilde{b})^2}
+\end{equation}
+
+e ao calcular o somatório, usamos
+
+\begin{equation}
+    \sum_{q=1}^{\infty} \frac{1}{q^4} = \frac{\pi^2}{90}
+\end{equation}
+
+de modo que chegamos a
+
+\begin{equation}
+E^{ren}(a,0)=-\frac{L^2\pi^2}{1440a^3}\left[1+\frac{2a^3}{\tilde b^3}+\frac{135a^4}{2\pi^4\tilde b^4}\zeta(5)+\frac{360a^2}{\pi^2\tilde b^2}\sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\frac{n^2}{q^2}K_2\!\left(2n\pi q\frac{a}{\tilde b}\right)\right].
+\end{equation}
+
+Note que o primeiro termo do lado direito da expressão acima é a energia de Casimir devido ao campo escalar sem massa sujeito a uma condição de contorno no espaço de Minkowski quadridimensinal, como obtivemos em \eqref{eq:EnergiaEntrePlacas}, enquanto que o segundo termo é uma correção devido somente à dimensão extra, visto que ela não depende do parâmetro $a$. No entanto, esse termo não contribui para a força entre as placas, como veremos na próxima seção. Os terceiro e quarto termos são correções devido tanto à presença das placas quanto à dimensão extra compactificada.
+
