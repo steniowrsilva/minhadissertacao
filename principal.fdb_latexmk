@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex principal"] 1773131251.09561 "principal.aux" "principal.bbl" "principal" 1773131547.71604 0
-  "./bibli.bib" 1773127043.64173 8735 6b9cba50a2996e5c6eb9bca0d137ecb5 ""
+["bibtex principal"] 1773616072.1698 "principal.aux" "principal.bbl" "principal" 1773616076.7463 0
+  "./bibli.bib" 1773614137.46409 9262 a4ceef31aff80bd530ef2355e8aac535 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "principal.aux" 1773131547.33689 18232 f6dcdfece823983479917a5308985f79 "pdflatex"
+  "principal.aux" 1773616076.36967 19275 8f5a57a3327163fff231767f55bbddd4 "pdflatex"
   (generated)
   "principal.bbl"
   "principal.blg"
   (rewritten before read)
-["pdflatex"] 1773131546.0108 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1773131547.71627 0
+["pdflatex"] 1773616074.94218 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1773616076.74656 0
   "/etc/texmf/web2c/texmf.cnf" 1726720012.88747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" 1772412552.13675 443 6e2641af9d7c1636017e6963294861f5 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -142,16 +142,17 @@
   "capitulos/cap2/cap2.tex" 1771788598.52009 451 634e44dafe80a809707bd56fa6126479 ""
   "capitulos/cap2/o efeito casimir.tex" 1771788616.50329 3929 0c0c935af7f08b2d04393b20a4624d9c ""
   "capitulos/cap3/aether-scalar coupling.tex" 1772247984.27679 4850 96a0ce3478be2bbc93ccb042b9b13802 ""
-  "capitulos/cap3/cap3.tex" 1773129675.683 2349 b92bd9aa612f66a8a322444487850bd0 ""
-  "capitulos/cap3/casimir energy.tex" 1773039218.11763 17836 c319d3a686cac4903ae1352486dc8ca4 ""
-  "capitulos/cap3/casimir force.tex" 1773131545.77987 3654 905d564eea4c9765684ec04965cbdb81 ""
+  "capitulos/cap3/cap3.tex" 1773604774.81792 2389 f944f12d79eea35d5429815af05b525f ""
+  "capitulos/cap3/casimir energy.tex" 1773557636.21575 17866 a3fcec385fe8f75130ea1f4779f668b7 ""
+  "capitulos/cap3/casimir force.tex" 1773604669.47046 5875 1a1e0432b07c5a502b2401b23d0e453e ""
+  "capitulos/cap3/restrições.tex" 1773616074.7195 928 5d9a014cd73fce2d3a91de9380ae5edd ""
   "conclusao.tex" 1773130512.3821 6735 823c15558a376f54f3071b75865ea161 ""
   "header.tex" 1773004395.52732 401 5302e18b1ace09ef55d21149529b9207 ""
   "intro.tex" 1771813678.75307 11402 1868db8f178cdbdd2d706da9a54d66a7 ""
-  "principal.aux" 1773131547.33689 18232 f6dcdfece823983479917a5308985f79 "pdflatex"
-  "principal.bbl" 1773131251.34148 4640 d20340b63142e0120a4b092bc5abf8c0 "bibtex principal"
+  "principal.aux" 1773616076.36967 19275 8f5a57a3327163fff231767f55bbddd4 "pdflatex"
+  "principal.bbl" 1773616072.30324 5001 41c8549cd9731aeda8e34659a8fac3eb "bibtex principal"
   "principal.tex" 1772412552.13675 443 6e2641af9d7c1636017e6963294861f5 ""
-  "principal.toc" 1773131547.34189 1451 b06f2e7cf615d2b8fd6a30193eaecb80 "pdflatex"
+  "principal.toc" 1773616076.37567 1553 df11de21d0882a34e1a512749fabd695 "pdflatex"
   "resumo.tex" 1770645306.77636 1828 17c6818a7c19efc6056338082d42c015 ""
   "ufcg.png" 1770641436.5283 65520 e87f624da33d1a6debcbe03b472c89b5 ""
   (generated)
