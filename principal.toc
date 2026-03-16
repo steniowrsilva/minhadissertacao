@@ -13,6 +13,6 @@
 \contentsline {section}{\numberline {3.3}Força de Casimir}{33}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Valores específicos}{35}{subsection.3.3.1}%
 \contentsline {section}{\numberline {3.4}Restrição ao tamanho da dimensão extra}{36}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Conclusões e Perspectivas}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{38}{section.4.1}%
-\contentsline {chapter}{Apêndice A: Somatório de $\DOTSB \sum@ \slimits@ f(n+\beta )$}{43}{chapter*.4}%
+\contentsline {chapter}{\numberline {4}Conclusões e Perspectivas}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Perspectivas e trabalhos futuros}{40}{section.4.1}%
+\contentsline {chapter}{Apêndice A: Somatório de $\DOTSB \sum@ \slimits@ f(n+\beta )$}{45}{chapter*.4}%

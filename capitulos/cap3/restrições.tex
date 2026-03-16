@@ -1,2 +1,52 @@
 \section{Restrição ao tamanho da dimensão extra}
 Atualmente há muitos modelos que tentam impor restrições e descrevem as propriedades e o tamanho das dimensões extras \cite{MurataTanaka2015}. No entanto, esses modelos apresentam desafios signifcantes para verificação experimental devido ao grau de precisão necessário para detectar dimensões extras de tamanho pequeno. Como mencionado anteriormente neste trabalho, de acordo com a teoria de Kaluza-Klein, o tamanho da dimensão extra estaria próximo da escla de Planck, tornando difícil, senão impossível, de fazer medidas diretas usando aparato experimental atual. Aqui, porém, propomos um método indireto para detectar a existência dessa dimensão extra e derivar restrições acessíveis tanto no tamanho da dimensão extra quanto nos dois parâmetros que colocamos no nosso modelo: a razão do éter $\alpha_\phi$ e o parâmetro quasiperiódico $\beta$. 
+
+Seguindo o método proposto na referência \cite{Pascoal2008}, podemos estimar o tamanho da dimensão extra calcular a derivada da pressão com relação à distância entre as placas, como mostrado na referência \cite{Bressi2000}. Da equação e movimento oscilatório
+
+\begin{equation}
+    m_{eff}\ddot{x} + kx = 0,
+\end{equation}
+
+temos
+
+\begin{equation}
+    \nu^2 = \frac{k}{4\pi^2m_{eff}}
+\end{equation}
+
+então 
+
+\begin{equation}
+    \Delta \nu^2 = \nu^2 - \nu_0^2 = \frac{k_{eff} - k_0}{4\pi^2 m_{eff}}
+\end{equation}
+
+onde $\nu_0$ e $k_0$ são a frequência e constante elástica, respectivamente, sem a força de Casimir entre as placas, e $m_{eff}$ e $k_{eff}$ são a massa e constante efetivas relacionadas às propriedades do sistema. Uma vez que haja a oscilação, a equação de movimento fica,
+
+\begin{equation}
+    m_{eff} \ddot{x} = -k_0x + F(a+x) \Rightarrow m_{eff} \ddot{x} = -k_0x + F(a) + x \frac{\partial F}{\partial a} 
+\end{equation}
+
+de modo que 
+
+\begin{equation}
+    m_{eff} \ddot{x} + \left(  k_0 - \frac{\partial F}{\partial a} \right) x = F(a) \Rightarrow k_{eff} - k_0 = -\frac{\partial F}{\partial a}
+\end{equation}
+
+Assim,
+
+\begin{equation}
+    \Delta \nu^2 = - \frac{1}{4\pi^2 m_{eff}} \frac{\partial F}{\partial a}.
+\end{equation}
+
+Portanto,
+
+\begin{equation}
+        \Delta \nu^2 = - \frac{L^2}{4\pi^2 m_{eff}} \frac{\partial P}{\partial a} = - \frac{L^2}{4\pi^2 m_{eff}} \frac{\partial }{\partial a} \left[ \frac{F_a(a, \tilde{b})}{L^2} \right] \label{eq:fShift}
+\end{equation}
+
+onde P é a pressão entre as placas e $L^2$ representa a área efetiva entre o cantiléver e as superfícies que é fonte da flutuação. Medir a massa efetiva não é algo direto, mas como sugerido na referência \cite{Bressi2000}, a razão $\frac{L^2}{m_{eff}}$ pode ser estimado usando dados experimentais. Isso é dado aproximadamente por $\frac{L^2}{m_{eff}} \approx 1746 Hz^2m^2N^{-1}$.
+
+A equação \eqref{eq:fShift} leva ao deslocamento da frequência osciladora das placas, representado por $\Delta \nu^2$. Essa é a quantidade que o aparato experimental pode detectar. Para mais detalhes sobre o experimento, veja as referências \cite{Bressi2000,Bressi2002}. Em sequência, ao susbtituir o resultado \eqref{eq:casimirForce} na equação \eqref{eq:fShift}, obtemos:
+
+\begin{equation}
+    \Delta \nu^2 = - \frac{\hbar cL^2}{4 \pi^2 m_{eff}}
+\end{equation}
