@@ -210,9 +210,9 @@ INPUT ./principal.toc
 INPUT ./principal.toc
 INPUT principal.toc
 OUTPUT principal.toc
-INPUT ./intro.tex
-INPUT ./intro.tex
-INPUT intro.tex
+INPUT ./intro_revisado.tex
+INPUT ./intro_revisado.tex
+INPUT intro_revisado.tex
 INPUT ./capitulos/cap1/cap1.tex
 INPUT ./capitulos/cap1/cap1.tex
 INPUT capitulos/cap1/cap1.tex
@@ -278,9 +278,9 @@ INPUT ./Figure_5.png
 INPUT ./Figure_5.png
 INPUT ./Figure_5.png
 INPUT ./Figure_5.png
-INPUT ./conclusao.tex
-INPUT ./conclusao.tex
-INPUT conclusao.tex
+INPUT ./conclusao_revisada.tex
+INPUT ./conclusao_revisada.tex
+INPUT conclusao_revisada.tex
 INPUT ./principal.bbl
 INPUT ./principal.bbl
 INPUT principal.bbl
