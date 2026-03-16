@@ -48,5 +48,27 @@ onde P é a pressão entre as placas e $L^2$ representa a área efetiva entre o 
 A equação \eqref{eq:fShift} leva ao deslocamento da frequência osciladora das placas, representado por $\Delta \nu^2$. Essa é a quantidade que o aparato experimental pode detectar. Para mais detalhes sobre o experimento, veja as referências \cite{Bressi2000,Bressi2002}. Em sequência, ao susbtituir o resultado \eqref{eq:casimirForce} na equação \eqref{eq:fShift}, obtemos:
 
 \begin{equation}
-    \Delta \nu^2 = - \frac{\hbar cL^2}{4 \pi^2 m_{eff}}
+    \begin{aligned}
+    \Delta \nu^2 =& - \frac{\hbar cL^2}{4 \pi^2 m_{eff}} \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \frac{(n + \beta)^2}{2a^3\tilde{b}^2q^3} \left\{ \left[ 3 + \pi^2q^2(n + \beta)^2 \frac{a^2}{\tilde{b}^2}\right] K_ 0 \left( 2\pi q |n + \beta|\frac{a}{\tilde{b}} \right) \right. \\
+    &+ \left. \frac{\tilde{b}}{2\pi qa |n + \beta|} \left[ 6 + 5\pi^2q^2(n + \beta)^2 \frac{a}{\tilde{b}} \right] K_ 1 (2\pi q |n + \beta| \frac{a}{\tilde{b}}) \right\} \label{eq:fShiftWithForce}
+    \end{aligned}
 \end{equation}
+
+Note que recuperamos as contantes $\hbar$ e $c$, já que elas são essenciais para comparar o modelo com o experimento. Consequentemente, ao fazer uso da equação \eqref{eq:fShiftWithForce}, é possível estimar o tamanho da dimensão extra. Essa estimativa também terá um impacto no parâmetro quasiperiódico e no parâmetro do éter. Isso é vantajoso, porque a presença desses parâmetros pode auxiliar em estabelecer um limite aceitável para o comprimento $b$. Num cenário em que o parâmetro $b$ é igual a 0, obtemos a seguinte expressão.
+
+\begin{equation}
+    \begin{aligned}
+    \Delta \nu^2 =& - \frac{\hbar cL^2}{4 \pi^2 m_{eff}} \left\{ \frac{\pi^2}{120a^2} + \sum_{n=1}^{\infty} \sum_{q=1}^{\infty} \frac{1}{a^3b^2} \left[ \left( \frac{3n^2}{q^2} + \frac{a^2\pi^2n^4}{\tilde{b}} \right) K_0 \left( \frac{2a\pi qn}{\tilde{b}} \right) + \right]  \right. \\
+    &+ \left. \left. \frac{\tilde{b}}{2\pi} \left( \frac{3n}{q^3} + \frac{5\pi^2a^2n^3}{2\tilde{b}^2q} \right)  K_1 \left( \frac{2a\pi qn}{\tilde{b}} \right) \right] \right\}. 
+    \end{aligned} \label{eq:fShiftWithBetaZero}
+\end{equation}
+
+A expressão acima coincide com o resultado obtido na referência \cite{Pascoal2008}, onde se reconhece que esse resultado não é adequado para determinar o tamanho da dimensão extra. Contudo, o modleo estudado na referência \cite{Pascoal2008}, não considera os parâmetros quasiperiódico $\beta$ e do éter no cálculo. Portanto, ao incorporar os dados experimentais da referência \cite{Bressi2002}, restrições em $\alpha_\phi$ podem ser impostas para determinar um comprimento $b$ compatível.
+
+Seguindo a referência \cite{Bressi2002}, o desvio da frequência quadrada residual obtida pelo experimento é dada por: 
+
+\begin{equation}
+    \Delta \nu^2 (a) = -\frac{C_{Cas}}{a^5}.
+\end{equation}
+
+Onde $C_{Cas} = (2.34 \pm 0,34) \times 10^{-28} Hz^2 m^5$, que é também determinado experimentalmente \cite{Bressi2000}
