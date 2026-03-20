@@ -78,6 +78,10 @@ K.~E.~L. de~Farias, A.~Mohammadi, and H.~F. Santana~Mota, ``Boundary effects on 
 \bibitem{Ambjoern1983}
 J.~Ambjoern and S.~Wolfram, ``Properties of the vacuum. i. mechanical and thermodynamic,'' {\em Annals of Physics}, vol.~147, no.~1, pp.~1--32, 1983.
 
+\bibitem{Das2008}
+A.~Das, {\em Lectures on Quantum Field Theory}.
+\newblock Singapore: World Scientific, 2008.
+
 \bibitem{MurataTanaka2015}
 J.~Murata and S.~Tanaka, ``A review of short-range gravity experiments in the lhc era,'' {\em Classical and Quantum Gravity}, vol.~32, no.~3, p.~033001, 2015.
 
@@ -86,9 +90,5 @@ G.~Bressi, G.~Carugno, A.~Galvani, R.~Onofrio, and G.~Ruoso, ``Experimental sear
 
 \bibitem{Bressi2002}
 G.~Bressi, G.~Carugno, R.~Onofrio, and G.~Ruoso, ``Measurement of the casimir force between parallel metallic surfaces,'' {\em Physical Review Letters}, vol.~88, p.~041804, 2002.
-
-\bibitem{Das2008}
-A.~Das, {\em Lectures on Quantum Field Theory}.
-\newblock Singapore: World Scientific, 2008.
 
 \end{thebibliography}

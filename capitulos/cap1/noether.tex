@@ -29,13 +29,13 @@ dizemos que a dinâmica descrita pela ação \eqref{eq:acao} é invariante sob t
 S = \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = \int d^4 x' \mathcal{L} (\phi' (x'), \partial'_\mu \phi' (x'))
 \end{equation}
 
-então, as transformações \eqref{eq:tranformacoes} definem uma simetria do sistema. É claro que neste caso, as equações de Euler-Lagrange para os sietmas com e sem linha continuariam invariantes. Vale a pena enfatizar aqui que \ref{eq:tranformacoes} inclui uma classe muito interessante de transformações onde as coordenadas espaço-tempo não mudam, ou seja, 
+então, as transformações \eqref{eq:tranformacoes} definem uma simetria do sistema. É claro que neste caso, as equações de Euler-Lagrange para os sistemas com e sem linha continuariam invariantes. Vale a pena enfatizar aqui que \ref{eq:tranformacoes} inclui uma classe muito interessante de transformações onde as coordenadas espaço-tempo não mudam, ou seja, 
 
 \begin{equation}
 x'^\mu = x^\mu , \label{eq:Xinvariante}
 \end{equation}
 
-e somente as variáveis dinâmicas da teoria se transformam. Tais transformações são conhecidas como transforamções de simetria interna para serem contrastadas com as transformações espaço-tempo onde as coordenadas espaço-tempo se transformam juntamente com comm as variáveis dinâmicas, como em \eqref{eq:tranformacoes}. Nossa discussão de simetrias se aplica tanto às transformações espaço-tempo, onde as coordenadas espaço-tempo são transformadas, como as transformações de simetria interna, onde as coordenadas espaço-tempo não são afetadas pelas transformações.
+e somente as variáveis dinâmicas da teoria se transformam. Tais transformações são conhecidas como transforamções de simetria interna para serem contrastadas com as transformações espaço-tempo onde as coordenadas espaço-tempo se transformam juntamente com as variáveis dinâmicas, como em \eqref{eq:tranformacoes}. Nossa discussão de simetrias se aplica tanto às transformações espaço-tempo, onde as coordenadas espaço-tempo são transformadas, como às transformações de simetria interna, onde as coordenadas espaço-tempo não são afetadas pelas transformações.
 
 Simetrias têm consequências interessantes para transformações contínuas. Então, Consideremos uma transformação infinitesimal com
 
@@ -47,9 +47,7 @@ o que vale para a maioria das simetrias globais de espaço-tempo , bem como para
 
 \begin{equation}
 \begin{aligned}
-&\delta S = &\int d^4 x' \mathcal{L} (\phi' (x'), \partial'_\mu \phi' (x')) - \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = 0, \\
-&ou, &\int d^4 x \mathcal{L} (\phi' (x), \partial_\mu \phi' (x)) - \int d^4 x \mathcal{L} (\phi (x), \partial_\mu \phi (x)) = 0, \\
-&ou, &\int d^4 x ( \mathcal{L} (\phi' (x), \partial_\mu \phi' (x)) - \mathcal{L} (\phi (x), \partial_\mu \phi (x)) ) = 0, \\ \label{eq:deltaS}
+\delta S = \int d^4 x ( \mathcal{L} (\phi' (x), \partial_\mu \phi' (x)) - \mathcal{L} (\phi (x), \partial_\mu \phi (x)) ) = 0, \\ \label{eq:deltaS}
 \end{aligned}
 \end{equation}
 
@@ -59,8 +57,8 @@ Claramente, \eqref{eq:deltaS} será válida se
 \mathcal{L} (\phi'(x), \partial_\mu \phi'(x)) - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) = \partial_\mu K^\mu, \label{eq:deltaL1}
 \end{equation}
 
-que deve valer independentemente do uso de equações de movimento para o sistema que estamos vendo. Isto é bem geral e é possível ter transformações de simetria pelo qual $K^\mu$.
-Por outro lado, definir a transformação infinitesimal no campo como
+que deve valer independentemente do uso de equações de movimento para o sistema que estamos vendo. Isto é bem geral e é possível ter transformações de simetria pelo qual $K^\mu = 0$.
+Por outro lado, ao definir a transformação infinitesimal no campo como
 
 \begin{equation}
 \phi'(x) - \phi(x) = \delta \phi (x) \label{eq:transformacaocampo}
@@ -80,7 +78,7 @@ podemos calcular explicitamente, uma vez que mantemos somente os termos lineares
 &= \mathcal{L} (\phi(x), \partial_\mu \phi(x)) + \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} - \mathcal{L} (\phi(x), \partial_\mu \phi(x)) \\
 &= \delta \phi(x) \frac{\partial \mathcal{L}}{\partial \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} \\
 &= \delta \phi(x) \partial_\mu \frac{\partial \mathcal{L}}{\partial \partial_\mu  \phi(x)} + \delta (\partial_\mu \phi (x)) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi(x)} \\
-&= \partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} \right) . \\ \label{eq:deltaL2}
+&= \partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} \right). \label{eq:deltaL2}
 \end{aligned}
 \end{equation}
 
@@ -88,8 +86,7 @@ Usamos a equação de Euler-Lagrange na penúltima linha. Comparando \eqref{eq:d
 
 \begin{equation}
 \begin{aligned}
-&\partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} \right) = \partial_\mu K^\mu \\
-ou, \quad &\partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} -  K^\mu \right) = 0 \\
+\partial_\mu \left( \delta \phi (x) \frac{\partial \mathcal{L}}{\partial \partial_\mu \phi (x)} -  K^\mu \right) = 0 
 \end{aligned}
 \end{equation}
 

@@ -75,8 +75,8 @@ plt.legend()
 plt.xlim(0.0, 1.5)
 plt.xticks(np.arange(0.0, 1.41, 0.2))
 
-plt.ylim(-1.0, 0.5)
-plt.yticks(np.arange(-1.0, 0.41, 0.2))
+plt.ylim(-0.4, 0.2)
+plt.yticks(np.arange(-0.4, 0.21, 0.1))
 
 plt.tight_layout()
 plt.show()

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  16 MAR 2026 06:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  20 MAR 2026 04:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -417,7 +417,7 @@ Overfull \hbox (40.22237pt too wide) detected at line 148
  []
 
 [29]
-<Figure_1.png, id=407, 578.16pt x 361.35pt>
+<Figure_1.png, id=405, 578.16pt x 361.35pt>
 File: Figure_1.png Graphic file (type png)
 <use Figure_1.png>
 Package pdftex.def Info: Figure_1.png  used on input line 179.
@@ -426,7 +426,7 @@ Package pdftex.def Info: Figure_1.png  used on input line 179.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-<Figure_2.png, id=419, 578.16pt x 361.35pt>
+<Figure_2.png, id=417, 578.16pt x 361.35pt>
 File: Figure_2.png Graphic file (type png)
 <use Figure_2.png>
 Package pdftex.def Info: Figure_2.png  used on input line 188.
@@ -454,7 +454,7 @@ Overfull \hbox (108.76797pt too wide) detected at line 10
 [][][][][]
  []
 
-<Figure_3.png, id=443, 578.16pt x 433.62pt>
+<Figure_3.png, id=441, 578.16pt x 433.62pt>
 File: Figure_3.png Graphic file (type png)
 <use Figure_3.png>
 Package pdftex.def Info: Figure_3.png  used on input line 16.
@@ -463,7 +463,7 @@ Package pdftex.def Info: Figure_3.png  used on input line 16.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-<Figure_4.png, id=453, 614.295pt x 433.62pt>
+<Figure_4.png, id=451, 614.295pt x 433.62pt>
 File: Figure_4.png Graphic file (type png)
 <use Figure_4.png>
 Package pdftex.def Info: Figure_4.png  used on input line 25.
@@ -491,36 +491,13 @@ Overfull \hbox (69.31274pt too wide) detected at line 55
 [][][][][]
  []
 
-) (./capitulos/cap3/restrições.tex [36]
-Overfull \hbox (20.78578pt too wide) detected at line 55
-[][][][][]
- []
-
-[37]
-Overfull \hbox (8.54381pt too wide) detected at line 64
-[][][][][]
- []
-
-<Figure_5.png, id=515, 736.4313pt x 476.982pt>
-File: Figure_5.png Graphic file (type png)
-<use Figure_5.png>
-Package pdftex.def Info: Figure_5.png  used on input line 78.
-(pdftex.def)             Requested size: 312.00119pt x 202.0851pt.
-
-Underfull \vbox (badness 7116) has occurred while \output is active []
-
- [38])) (./conclusao_revisada.tex [39
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1 \chapter
-            {Conclusões e Perspectivas} <./Figure_5.png>] [40]
+)) (./conclusao_revisada.tex [36]
 Cap\'{\i }tulo 4.
-[41
+[37
 
-] [42]) [43] (./principal.bbl [44] [45
+] [38]) [39] (./principal.bbl [40] [41
 
-] [46]) (./apendice.tex [47]
+] [42]) (./apendice.tex [43]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
@@ -549,7 +526,7 @@ Overfull \hbox (33.30345pt too wide) detected at line 111
 
 Underfull \vbox (badness 1859) has occurred while \output is active []
 
- [48
+ [44
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1}) has been already used, duplicate ignored
@@ -587,7 +564,7 @@ Overfull \hbox (88.42644pt too wide) detected at line 168
  []
 
 
-LaTeX Warning: Reference `eq:A5' on page 49 undefined on input line 170.
+LaTeX Warning: Reference `eq:A5' on page 45 undefined on input line 170.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1}) has been already used, duplicate ignored
@@ -614,7 +591,7 @@ Overfull \hbox (152.24709pt too wide) detected at line 210
 []
  []
 
-[49
+[45
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -644,7 +621,7 @@ Overfull \hbox (86.45859pt too wide) detected at line 254
 [][][][][]
  []
 
-) [50] (./principal.aux)
+) [46] (./principal.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -655,18 +632,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13790 strings out of 474222
- 216032 string characters out of 5748733
+ 13754 strings out of 474222
+ 215411 string characters out of 5748733
  1941975 words of memory out of 5000000
- 35409 multiletter control sequences out of 15000+600000
- 579511 words of font info for 180 fonts, out of 8000000 for 9000
+ 35394 multiletter control sequences out of 15000+600000
+ 579452 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,12n,82p,1519b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on principal.pdf (50 pages, 643397 bytes).
+Output written on principal.pdf (46 pages, 564908 bytes).
 PDF statistics:
- 823 PDF objects out of 1000 (max. 8388607)
- 701 compressed objects within 8 object streams
- 236 named destinations out of 1000 (max. 500000)
- 32935 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 758 PDF objects out of 1000 (max. 8388607)
+ 646 compressed objects within 7 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 32922 words of extra memory for PDF output out of 35830 (max. 10000000)
 
