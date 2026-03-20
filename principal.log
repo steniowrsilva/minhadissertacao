@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  20 MAR 2026 04:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  20 MAR 2026 05:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -406,35 +406,20 @@ Cap\'{\i }tulo 2.
 Cap\'{\i }tulo 3.
 [23
 
-] (./capitulos/cap3/aether-scalar coupling.tex [24] [25]) (./capitulos/cap3/casimir energy.tex [26] [27] [28]
-Overfull \hbox (79.20917pt too wide) detected at line 113
-[][][][][]
- []
-
-[29]
-Overfull \hbox (30.54755pt too wide) detected at line 139
-[][][][][]
- []
-
-
-Overfull \hbox (40.22237pt too wide) detected at line 148
-[][][][][]
- []
-
-[30]
+] (./capitulos/cap3/aether-scalar coupling.tex [24] [25]) (./capitulos/cap3/casimir energy.tex [26] [27] [28] [29] [30]
 <Figure_1.png, id=409, 578.16pt x 361.35pt>
 File: Figure_1.png Graphic file (type png)
 <use Figure_1.png>
-Package pdftex.def Info: Figure_1.png  used on input line 179.
+Package pdftex.def Info: Figure_1.png  used on input line 182.
 (pdftex.def)             Requested size: 312.00119pt x 194.99928pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1648) has occurred while \output is active []
 
  [31]
 <Figure_2.png, id=422, 578.16pt x 361.35pt>
 File: Figure_2.png Graphic file (type png)
 <use Figure_2.png>
-Package pdftex.def Info: Figure_2.png  used on input line 188.
+Package pdftex.def Info: Figure_2.png  used on input line 191.
 (pdftex.def)             Requested size: 312.00119pt x 194.99928pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -443,9 +428,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.192 
+l.195 
        <./Figure_1.png>]
-Overfull \hbox (15.5978pt too wide) detected at line 214
+Overfull \hbox (15.5978pt too wide) detected at line 217
 [][][]\OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; \OT1/cmr/m/n/12 0) = \OMS/cmsy/m/n/12 ^^@[] [] \OML/cmm/m/it/12 :
  []
 
@@ -453,16 +438,16 @@ Overfull \hbox (15.5978pt too wide) detected at line 214
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.217 
+l.220 
        <./Figure_2.png>]) (./capitulos/cap3/casimir force.tex
-Overfull \hbox (108.76797pt too wide) detected at line 10
+Overfull \hbox (21.82169pt too wide) detected at line 11
 [][][][][]
  []
 
 <Figure_3.png, id=445, 578.16pt x 433.62pt>
 File: Figure_3.png Graphic file (type png)
 <use Figure_3.png>
-Package pdftex.def Info: Figure_3.png  used on input line 16.
+Package pdftex.def Info: Figure_3.png  used on input line 17.
 (pdftex.def)             Requested size: 312.00119pt x 233.99913pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -471,7 +456,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Figure_4.png, id=455, 614.295pt x 433.62pt>
 File: Figure_4.png Graphic file (type png)
 <use Figure_4.png>
-Package pdftex.def Info: Figure_4.png  used on input line 25.
+Package pdftex.def Info: Figure_4.png  used on input line 26.
 (pdftex.def)             Requested size: 312.00119pt x 220.23682pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -480,19 +465,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.29 
-      <./Figure_3.png>]
-Overfull \hbox (118.18774pt too wide) detected at line 38
-[][][]\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; []\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12 ^^@[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 ^^P\OT1/cmr/m/n/12 (5) \OMS/cmsy/m/n/12 ^^@ [] [] [] []\OML/cmm/m/it/12 K[] [] \OMS/cmsy/m/n/12 ^^@ [] [] [] [][] \OML/cmm/m/it/12 K[] [] ;
- []
-
-[36
+l.30 
+      <./Figure_3.png>] [36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.41 
+l.45 
       <./Figure_4.png>]
-Overfull \hbox (69.31274pt too wide) detected at line 55
+Overfull \hbox (19.68837pt too wide) detected at line 60
 [][][][][]
  []
 
@@ -564,35 +544,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1
                    \relax 
 l.114 \begin{equation}
                       
-Overfull \hbox (88.42644pt too wide) detected at line 168
+Overfull \hbox (88.42644pt too wide) detected at line 169
 [][][][][]
  []
 
 
-LaTeX Warning: Reference `eq:A5' on page 45 undefined on input line 170.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.171 \begin{equation}
+l.172 \begin{equation}
                       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.171 \begin{equation}
+l.172 \begin{equation}
                       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.171 \begin{equation}
+l.172 \begin{equation}
                       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.171 \begin{equation}
+l.172 \begin{equation}
                       
-Overfull \hbox (152.24709pt too wide) detected at line 210
+Overfull \hbox (25.57759pt too wide) detected at line 210
 []
  []
 
@@ -622,7 +599,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1.1
                    \relax 
 l.213 \begin{equation}
                       
-Overfull \hbox (86.45859pt too wide) detected at line 254
+Overfull \hbox (56.55911pt too wide) detected at line 254
 [][][][][]
  []
 
@@ -631,10 +608,6 @@ Overfull \hbox (86.45859pt too wide) detected at line 254
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
  13754 strings out of 474222
@@ -645,10 +618,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  80i,12n,82p,1519b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on principal.pdf (46 pages, 565257 bytes).
+Output written on principal.pdf (46 pages, 564878 bytes).
 PDF statistics:
- 759 PDF objects out of 1000 (max. 8388607)
- 647 compressed objects within 7 object streams
+ 760 PDF objects out of 1000 (max. 8388607)
+ 648 compressed objects within 7 object streams
  220 named destinations out of 1000 (max. 500000)
  32922 words of extra memory for PDF output out of 35830 (max. 10000000)
 

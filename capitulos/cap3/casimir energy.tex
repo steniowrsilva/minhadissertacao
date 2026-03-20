@@ -106,9 +106,10 @@ Dentre os termos que estão entre chaves, a integral diverge. No entanto, vamos 
 O somatório pode ser calculado ao usar a expressão \eqref{eq:A1}, obtendo
 \begin{equation}
     \begin{aligned}
-     \left( \frac{a}{\tilde{b}} \right)^{-2s} dx \int_0^\infty  \sum_{n=-\infty}^{\infty} \left[ (n + \beta)^{-2s} + \frac{\tilde{b}^2}{a^2}x^2 \right]^{-s} =& \left( \frac{a}{\tilde{b}} \right)^{-2s} dx  \int_0^\infty \left[ 2\tilde{b}^{-2s} \int_0^\infty d\mu \left( \frac{\mu^2}{b^2} + \frac{x^2}{a^2} \right)^{-s} \right. \\
-     &+  sen(\pi s) \frac{4\Gamma(1 - s)}{\pi^{1-s}} \left( \frac{\tilde{b}}{a}x \right)^{1-2s} \\ 
-     & \quad \times \left.  \sum_{n=-1}^\infty \frac{cos(2\pi n \beta)}{n^{1/2-s}} K_{1/2-s} \left( 2\pi nx \frac{\tilde{b}}{a} \right) \right] \label{eq:eqComMu}
+     & \left( \frac{a}{\tilde{b}} \right)^{-2s} dx \int_0^\infty  \sum_{n=-\infty}^{\infty} \left[ (n + \beta)^{-2s} + \frac{\tilde{b}^2}{a^2}x^2 \right]^{-s} =\\
+     & \left( \frac{a}{\tilde{b}} \right)^{-2s} dx  \int_0^\infty \left[ 2\tilde{b}^{-2s} \int_0^\infty d\mu \left( \frac{\mu^2}{b^2} + \frac{x^2}{a^2} \right)^{-s} \right. \\
+     & \qquad \qquad +  sen(\pi s) \frac{4\Gamma(1 - s)}{\pi^{1-s}} \left( \frac{\tilde{b}}{a}x \right)^{1-2s} \\ 
+     & \qquad \qquad \quad \times \left.  \sum_{n=-1}^\infty \frac{cos(2\pi n \beta)}{n^{1/2-s}} K_{1/2-s} \left( 2\pi nx \frac{\tilde{b}}{a} \right) \right] \label{eq:eqComMu}
     \end{aligned}
 \end{equation}
 
@@ -132,7 +133,8 @@ O segundo somatório em \eqref{eq:energyWithK} fornece uma expressão analítica
 Ao substituir \eqref{eq:semK} e \eqref{eq:relA4} na equação \eqref{eq:energyWithK}, finalmente obetemos a forma fechada da energia de Casimir regularizada, que é dada por
 \begin{equation}
     \begin{aligned}
-    E^{reg} (\alpha,\beta) =& -\left( \frac{2}{L} \right)^{2s+1} \frac{\pi^s \Gamma(s)}{4} \left( \frac{\pi}{a} \right)^{-2s} \left\{ \left( \frac{a}{\tilde{b}} \right)^{1-2s} \frac{\pi^{-1+2s}}{\Gamma(s)} \Gamma(1-s) \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^{2-2s}} \right. \\ 
+    E^{reg} (\alpha,\beta) =& -\left( \frac{2}{L} \right)^{2s+1} \frac{\pi^s \Gamma(s)}{4} \left( \frac{\pi}{a} \right)^{-2s} \left\{ \left( \frac{a}{\tilde{b}} \right)^{1-2s} \frac{\pi^{-1+2s}}{\Gamma(s)} \Gamma(1-s) \right. \\
+    & \times \left.  \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^{2-2s}} \right. \\ 
     &+ \left. \left( \frac{a}{\tilde{b}} \right)^{-2s} \pi^{2s-1/2} \frac{\Gamma(1/2 - s)}{\Gamma(s)} 2 \sum_{n=1}^{\infty} n^{2s-1} cos(2\pi n \beta) \right. \\
     &+ \left. 2^{1-2s} \pi^{-1+s} \Gamma(1-s) \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \left( \frac{q}{N} \right)^{-1/2 -s} K_{-1/2 + s} (2Nq \pi) \right\}
     \end{aligned}
@@ -142,8 +144,9 @@ Ao considerar $s \to -3/2$, removemos o parâmetro de regularização e obtemos 
 
 \begin{equation}
     \begin{aligned}
-        E_{reg} (\alpha, \beta) = - \frac{L^2 \pi^2}{4a^3} \left\{ \frac{3}{16} \left( \frac{a}{\pi \tilde{b}} \right)^4 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^5} \right. +& \left. \frac{1}{2\pi^4} \left( \frac{a}{\tilde{b}} \right)^3 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^4} \right. \\ 
-        +& \left. \frac{1}{2\pi^2} \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \left( \frac{N}{q} \right)^2 K_2 (2Nq\pi) \right\} \label{eq:normalizedCasimirEnergy}
+        E_{reg} (\alpha, \beta) =& - \frac{L^2 \pi^2}{4a^3} \left\{ \frac{3}{16} \left( \frac{a}{\pi \tilde{b}} \right)^4 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^5} \right. \\
+        &+ \left. \frac{1}{2\pi^4} \left( \frac{a}{\tilde{b}} \right)^3 \sum_{n=1}^{\infty} \frac{cos(2\pi n \beta)}{n^4} \right. \\ 
+        &+ \left. \frac{1}{2\pi^2} \sum_{n=-\infty}^{\infty} \sum_{q=1}^{\infty} \left( \frac{N}{q} \right)^2 K_2 (2Nq\pi) \right\} \label{eq:normalizedCasimirEnergy}
     \end{aligned}
 \end{equation}
 

@@ -3,8 +3,9 @@ Embora tenhamos obtido uma expressã analítica para a energia de vácuo, na equ
 
 \begin{equation}
 \begin{aligned}
-F_a(a,\tilde b)&=-\frac{\partial E(a,\tilde b)}{\partial a}=-\frac{L^2}{128\tilde b^4}\sum_{\delta=+,-}\left\{-\frac{3}{\pi^2}Li_5\!\left(e^{2i\pi\beta\delta}\right)\right.\\
-&\left.+16\sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\left[3\left(\frac{\tilde b(\delta n+\beta)}{aq}\right)^2K_2\!\left(\frac{a}{\tilde b}2\pi q|\delta n+\beta|\right)+2\pi\frac{\tilde b(\delta n+\beta)^3}{aq}K_1\!\left(\frac{a}{\tilde b}2\pi q|\delta n+\beta|\right)\right]\right\}\\
+F_a(a,\tilde b)=-\frac{\partial E(a,\tilde b)}{\partial a} &=-\frac{L^2}{128\tilde b^4}\sum_{\delta=+,-}\left\{-\frac{3}{\pi^2}Li_5\!\left(e^{2i\pi\beta\delta}\right)\right.\\
+&\left.+16\sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\left[3\left(\frac{\tilde b(\delta n+\beta)}{aq}\right)^2K_2\!\left(\frac{a}{\tilde b}2\pi q|\delta n+\beta|\right) \right. \right. \\ 
+&+ \left.  \left. 2\pi\frac{\tilde b(\delta n+\beta)^3}{aq}K_1\!\left(\frac{a}{\tilde b}2\pi q|\delta n+\beta|\right)\right]\right\}\\
 &-\frac{L^2}{8\tilde b^4}\sum_{q=1}^{\infty}\left[3\left(\frac{\tilde b\beta}{aq}\right)^2K_2\!\left(\frac{a}{\tilde b}2\pi q\beta\right)+2\pi\frac{\tilde b\beta^3}{aq}K_1\!\left(\frac{a}{\tilde b}2\pi q\beta\right)\right]. \label{eq:casimirForce}
 \end{aligned}
 \end{equation}
@@ -34,7 +35,10 @@ Na figura \ref{fig:force_a_bar_tildeb}, por outro lado, mostra que o comportamen
 Consideremos agora os casos específicos das condições periódica ($\beta=0$) e antiperiódica ($\beta=1/2$). Começando com o primeiro, a força de casimir se torna
 
 \begin{equation}
-F_a(a,\tilde{b})=-\frac{L^2\pi^2}{480a^4}+\frac{3L^2}{64\tilde{b}^4\pi^2}\zeta(5)-\frac{L^2\pi}{2a\tilde{b}^3}\sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\frac{n^3}{q}K_1\left(2\pi nq\frac{a}{\tilde{b}}\right)-\frac{3L^2}{(2a\tilde{b})^2}\sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\left(\frac{n}{q}\right)^2K_2\left(2\pi nq\frac{a}{\tilde{b}}\right), \label{eq:forceWithBetaEqualZero}
+\begin{aligned}
+    F_a(a,\tilde{b})=&-\frac{L^2\pi^2}{480a^4}+\frac{3L^2}{64\tilde{b}^4\pi^2}\zeta(5)-\frac{L^2\pi}{2a\tilde{b}^3}\sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\frac{n^3}{q}K_1\left(2\pi nq\frac{a}{\tilde{b}}\right)\\
+    &-\frac{3L^2}{(2a\tilde{b})^2}\sum_{n=1}^{\infty}\sum_{q=1}^{\infty}\left(\frac{n}{q}\right)^2K_2\left(2\pi nq\frac{a}{\tilde{b}}\right), \label{eq:forceWithBetaEqualZero}
+\end{aligned}
 \end{equation}
 
 Onde usamos \eqref{eq:lastTermBetaToZero}. O resultado acima está de acordo com a expressão ontia na referência \cite{Pascoal2008}. Além disso, note também que o primeiro termo, que depende somente de $a$, se o dividirmos pela área das placas, obtendo a pressão entre elas, fica igual ao valor que obtivemos em \eqref{eq:pressaoEntreAsPlacas}, ou seja, se retirarmos os termos que envolvem os parâmetros relacionados às condições de contorno impostas à região entre as placas neste capítulo, voltamos ao resultado obtido sem tais condições de contorno. Outra coisa a se notar, é que, ao se tomar o limite $a \to \infty$, obtemos a contribuição da dimensão extra para a força de Casimmir, ou seja,
@@ -50,7 +54,8 @@ Com o outro valor que propusemos analisar, $\beta = 1/2$, chegamos à situação
 \begin{equation}
     \begin{aligned}
     F_a (a, \tilde{b}) =& -\frac{45L^2}{1,024\tilde{b}^4} \zeta(5) - \frac{L^2}{32a\tilde{b}^2} \sum_{\delta = +, -} \sum_{n=1}^{\infty} \sum_{q=1}^{\infty} \left\{ \frac{\pi}{q} (2\delta n + 1)^3 K_1 \left[ \frac{a}{\tilde{b}} \pi q |2\delta n + 1| \right] \right. \\
-    &+ \left. \frac{\tilde{b} (2\delta n + 1)^2}{3aq^2} K_2 [x\pi q(2 \delta n + 1)] \right\} - \frac{L^2}{32a\tilde{b}^3} \sum_{q=1}^{\infty} \left[ \frac{\pi}{q} K_1 \left( \frac{a\pi q}{\tilde{b}} \right) + \frac{3 \tilde{b}}{aq^2} K_2 \left( \frac{a\pi q}{\tilde{b}} \right) \right]
+    &+ \left. \frac{\tilde{b} (2\delta n + 1)^2}{3aq^2} K_2 [x\pi q(2 \delta n + 1)] \right\} - \frac{L^2}{32a\tilde{b}^3} \sum_{q=1}^{\infty} \left[ \frac{\pi}{q} K_1 \left( \frac{a\pi q}{\tilde{b}} \right) \right. \\
+     &+ \left. \frac{3 \tilde{b}}{aq^2} K_2 \left( \frac{a\pi q}{\tilde{b}} \right) \right]
     \end{aligned}
 \end{equation}
 

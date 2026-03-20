@@ -165,6 +165,7 @@ e^{2\pi x}-1
 }.
 \end{aligned}
 \tag{A5}
+\label{eq:A5}
 \end{equation}
 
 A segunda integral de \eqref{eq:A5} pode ser resolvida usando a identidade
@@ -188,9 +189,8 @@ consequentemente, temos
 \sum_{\ell=1}^{\infty}
 \int_{0}^{\infty} dx \,
 \Bigl(
-\left[(x+i\beta)^2-\mu^2\right]^{-s}
-+
-\left[(x-i\beta)^2-\mu^2\right]^{-s}
+\left[(x+i\beta)^2-\mu^2\right]^{-s} \\
+&+\left[(x-i\beta)^2-\mu^2\right]^{-s}
 \Bigr)e^{-2\ell\pi x}
 \\[6pt]
 &=
@@ -230,8 +230,8 @@ A expressão acima pode ser reduzida a
 &\quad
 +
 \left(i^{1-2s}+(-i)^{1-2s}\right)
-\frac{2\Gamma(1-s)}{\pi^{\,1-s}}
-\sum_{\ell=1}^{\infty}
+\frac{2\Gamma(1-s)}{\pi^{\,1-s}} \\
+& \times \sum_{\ell=1}^{\infty}
 \left(\frac{\ell}{\mu}\right)^{-\frac{1}{2}+s}
 \cos(2\pi \ell \beta)\,
 K_{\frac{1}{2}-s}(2\pi \mu \ell)
