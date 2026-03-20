@@ -202,10 +202,10 @@ INPUT ./resumo.tex
 INPUT resumo.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT ./abstract.tex
 INPUT ./abstract.tex
 INPUT abstract.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT ./principal.toc
 INPUT ./principal.toc
 INPUT principal.toc

@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex principal"] 1773995952.39197 "principal.aux" "principal.bbl" "principal" 1773996317.20673 0
+["bibtex principal"] 1773997412.52368 "principal.aux" "principal.bbl" "principal" 1773997414.47138 0
   "./bibli.bib" 1773652898.20762 9878 fdce4f65571ee7961e0c5ebc86e37178 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "principal.aux" 1773996316.82105 18697 21ee1d83fff3ebe43c2741ddca655376 "pdflatex"
+  "principal.aux" 1773997414.12435 18697 b632f4d5e41712f340609cd531fdee98 "pdflatex"
   (generated)
   "principal.bbl"
   "principal.blg"
   (rewritten before read)
-["pdflatex"] 1773996315.44588 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1773996317.20699 0
+["pdflatex"] 1773997412.66591 "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" "principal.pdf" "principal" 1773997414.47171 0
   "/etc/texmf/web2c/texmf.cnf" 1726720012.88747 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" 1773654178.11651 461 1c531754ea0044960bf78e42e10707ac ""
+  "/home/stenio/Documentos/MESTRADO UFCG/0 DISSERTAÇÃO/dissertação/principal.tex" 1773997410.45767 493 e81676231705030e488502d0c1dc3db1 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -131,7 +131,7 @@
   "Figure_2.png" 1773990410.34191 41112 9176e870f9618e6e04883931552ee91c ""
   "Figure_3.png" 1773125586.84268 73886 84f87010bdc9d49f76e52da9bd252341 ""
   "Figure_4.png" 1773129701.47269 38328 6f0384e830aa93b9d545196168ddda77 ""
-  "abstract.tex" 1770645449.65772 1771 0d29cafec7f30abbe1397edbed1d8174 ""
+  "abstract.tex" 1773997072.45906 3989 9a790a138502dc0246e1ff8fde0f54dd ""
   "apendice.tex" 1773996315.21002 4913 846776e547130b47e371a103b255d368 ""
   "capa.tex" 1770644172.46204 717 4a2788f4157beec6e3011e2fadeb5aff ""
   "capa2.tex" 1770646481.84924 816 967cb6811f660d7541d16fa7aee381b8 ""
@@ -147,12 +147,12 @@
   "capitulos/cap3/casimir force.tex" 1773995735.73243 5982 8dac2d9456a5b41807c6c08fcb0b6c05 ""
   "conclusao_revisada.tex" 1773991496.27938 7975 74c1b649a414418989cd2508b993ca73 ""
   "header.tex" 1773004395.52732 401 5302e18b1ace09ef55d21149529b9207 ""
-  "intro_revisado.tex" 1773992844.1327 12378 abca77e43b045fe04410716e81601fd3 ""
-  "principal.aux" 1773996316.82105 18697 21ee1d83fff3ebe43c2741ddca655376 "pdflatex"
-  "principal.bbl" 1773995952.52274 5438 0533703f60f19fd47013f56f529130fc "bibtex principal"
-  "principal.tex" 1773654178.11651 461 1c531754ea0044960bf78e42e10707ac ""
-  "principal.toc" 1773996316.82605 1451 1fc30d0fe12d640c61770b7a0adaab0d "pdflatex"
-  "resumo.tex" 1770645306.77636 1828 17c6818a7c19efc6056338082d42c015 ""
+  "intro_revisado.tex" 1773997298.39232 12378 abca77e43b045fe04410716e81601fd3 ""
+  "principal.aux" 1773997414.12435 18697 b632f4d5e41712f340609cd531fdee98 "pdflatex"
+  "principal.bbl" 1773997412.66048 5438 0533703f60f19fd47013f56f529130fc "bibtex principal"
+  "principal.tex" 1773997410.45767 493 e81676231705030e488502d0c1dc3db1 ""
+  "principal.toc" 1773997414.12935 1451 54a29fefa7db0ecbd86fdbe6e3862a98 "pdflatex"
+  "resumo.tex" 1773996910.74137 4332 dd228211b1369342cba1dac4fd1ecaec ""
   "ufcg.png" 1770641436.5283 65520 e87f624da33d1a6debcbe03b472c89b5 ""
   (generated)
   "principal.aux"
