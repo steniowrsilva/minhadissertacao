@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  20 MAR 2026 04:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  20 MAR 2026 04:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,29 +384,34 @@ Underfull \vbox (badness 1803) has occurred while \output is active []
 
  [6
 
-] [7] [8]) (./capitulos/cap1/cap1.tex [9]
+] [7] [8]) (./capitulos/cap1/cap1.tex [9] [10]
 Cap\'{\i }tulo 1.
-(./capitulos/cap1/noether.tex [10
+(./capitulos/cap1/noether.tex [11
 
-] [11] [12] [13] [14]) (./capitulos/cap1/equação do campo.tex [15]) (./capitulos/cap1/quantização do campo.tex [16]
+] [12] [13] [14] [15]) (./capitulos/cap1/equação do campo.tex [16]) (./capitulos/cap1/quantização do campo.tex
 Overfull \hbox (229.28471pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 1.3.  QUANTIZA[][]AO CAN[]ONICA DO CAMPO E A ENERGIA DE V[]ACUO COMO UMA EXPANS[]AO EM MODOS \OT1/cmr/m/n/12 17
  []
 
-[17])) (./capitulos/cap2/cap2.tex [18]
+[17] [18])) (./capitulos/cap2/cap2.tex
+Overfull \hbox (229.28471pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 1.3.  QUANTIZA[][]AO CAN[]ONICA DO CAMPO E A ENERGIA DE V[]ACUO COMO UMA EXPANS[]AO EM MODOS \OT1/cmr/m/n/12 19
+ []
+
+[19]
 Cap\'{\i }tulo 2.
-(./capitulos/cap2/o efeito casimir.tex [19
+(./capitulos/cap2/o efeito casimir.tex [20
 
-] [20])) (./capitulos/cap3/cap3.tex [21]
+] [21])) (./capitulos/cap3/cap3.tex [22]
 Cap\'{\i }tulo 3.
-[22
+[23
 
-] (./capitulos/cap3/aether-scalar coupling.tex [23] [24]) (./capitulos/cap3/casimir energy.tex [25] [26] [27]
+] (./capitulos/cap3/aether-scalar coupling.tex [24] [25]) (./capitulos/cap3/casimir energy.tex [26] [27] [28]
 Overfull \hbox (79.20917pt too wide) detected at line 113
 [][][][][]
  []
 
-[28]
+[29]
 Overfull \hbox (30.54755pt too wide) detected at line 139
 [][][][][]
  []
@@ -416,8 +421,8 @@ Overfull \hbox (40.22237pt too wide) detected at line 148
 [][][][][]
  []
 
-[29]
-<Figure_1.png, id=405, 578.16pt x 361.35pt>
+[30]
+<Figure_1.png, id=409, 578.16pt x 361.35pt>
 File: Figure_1.png Graphic file (type png)
 <use Figure_1.png>
 Package pdftex.def Info: Figure_1.png  used on input line 179.
@@ -425,8 +430,8 @@ Package pdftex.def Info: Figure_1.png  used on input line 179.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-<Figure_2.png, id=417, 578.16pt x 361.35pt>
+ [31]
+<Figure_2.png, id=422, 578.16pt x 361.35pt>
 File: Figure_2.png Graphic file (type png)
 <use Figure_2.png>
 Package pdftex.def Info: Figure_2.png  used on input line 188.
@@ -434,7 +439,7 @@ Package pdftex.def Info: Figure_2.png  used on input line 188.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31
+ [32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -444,7 +449,7 @@ Overfull \hbox (15.5978pt too wide) detected at line 214
 [][][]\OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; \OT1/cmr/m/n/12 0) = \OMS/cmsy/m/n/12 ^^@[] [] \OML/cmm/m/it/12 :
  []
 
-[32
+[33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -454,7 +459,7 @@ Overfull \hbox (108.76797pt too wide) detected at line 10
 [][][][][]
  []
 
-<Figure_3.png, id=441, 578.16pt x 433.62pt>
+<Figure_3.png, id=445, 578.16pt x 433.62pt>
 File: Figure_3.png Graphic file (type png)
 <use Figure_3.png>
 Package pdftex.def Info: Figure_3.png  used on input line 16.
@@ -462,8 +467,8 @@ Package pdftex.def Info: Figure_3.png  used on input line 16.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-<Figure_4.png, id=451, 614.295pt x 433.62pt>
+ [34]
+<Figure_4.png, id=455, 614.295pt x 433.62pt>
 File: Figure_4.png Graphic file (type png)
 <use Figure_4.png>
 Package pdftex.def Info: Figure_4.png  used on input line 25.
@@ -471,7 +476,7 @@ Package pdftex.def Info: Figure_4.png  used on input line 25.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34
+ [35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -481,7 +486,7 @@ Overfull \hbox (118.18774pt too wide) detected at line 38
 [][][]\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; []\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12 ^^@[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 ^^P\OT1/cmr/m/n/12 (5) \OMS/cmsy/m/n/12 ^^@ [] [] [] []\OML/cmm/m/it/12 K[] [] \OMS/cmsy/m/n/12 ^^@ [] [] [] [][] \OML/cmm/m/it/12 K[] [] ;
  []
 
-[35
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -491,11 +496,11 @@ Overfull \hbox (69.31274pt too wide) detected at line 55
 [][][][][]
  []
 
-)) (./conclusao_revisada.tex [36]
+)) (./conclusao_revisada.tex [37]
 Cap\'{\i }tulo 4.
-[37
+[38
 
-] [38]) [39] (./principal.bbl [40] [41
+] [39]) (./principal.bbl [40] [41
 
 ] [42]) (./apendice.tex [43]
 
@@ -640,10 +645,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  80i,12n,82p,1519b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on principal.pdf (46 pages, 564908 bytes).
+Output written on principal.pdf (46 pages, 565257 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
- 646 compressed objects within 7 object streams
+ 759 PDF objects out of 1000 (max. 8388607)
+ 647 compressed objects within 7 object streams
  220 named destinations out of 1000 (max. 500000)
  32922 words of extra memory for PDF output out of 35830 (max. 10000000)
 
